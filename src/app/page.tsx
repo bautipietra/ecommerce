@@ -69,7 +69,7 @@ export default function Home() {
         <ul className="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
           <li>
             <a href="#" className="relative block group">
-              <Image src="https://images.unsplash.com/photo-1618898909019-010e4e234c55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" width={100} height={100} alt="" className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90" />
+              <Image src="https://images.unsplash.com/photo-1618898909019-010e4e234c55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" width={1000} height={1000} alt="" className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90" />
               <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                 <h3 className="text-xl font-medium text-white">Casual Trainers</h3>
                 <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
@@ -80,7 +80,7 @@ export default function Home() {
           </li>
           <li>
             <a href="#" className="relative block group">
-              <Image src="https://images.pexels.com/photos/2048548/pexels-photo-2048548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width={100} height={100} alt="" className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90" />
+              <Image src="https://images.pexels.com/photos/2048548/pexels-photo-2048548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width={1000} height={1000} alt="" className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90" />
               <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                 <h3 className="text-xl font-medium text-white">Nike Air Force 1 Low</h3>
                 <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
@@ -91,7 +91,7 @@ export default function Home() {
           </li>
           <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
             <a href="#" className="relative block group">
-              <Image src="https://erreizando.com/wp-content/uploads/2021/04/4k-uhd-background-blur-close-up-sneakers-shoes-legs-asphalt.jpg" width={100} height={100} alt="" className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90" />
+              <Image src="https://erreizando.com/wp-content/uploads/2021/04/4k-uhd-background-blur-close-up-sneakers-shoes-legs-asphalt.jpg" width={1000} height={1000} alt="" className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90" />
               <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                 <h3 className="text-xl font-medium text-white">Nike Sneakers</h3>
                 <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
