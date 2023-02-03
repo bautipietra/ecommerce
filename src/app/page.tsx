@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { Canvas } from 'react-three-fiber'
 import { OrbitControls, Stage } from '@react-three/drei'
 import Sneaker from '../components/Sneaker'
+import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -43,7 +44,6 @@ export default function Home() {
         </section>
       </div >
 
-
       <div className='bg-black py-8 w-full text-white'>
         <div className="relative flex overflow-x-hidden">
           <div className="py-12 animate-marquee whitespace-nowrap">
@@ -55,14 +55,7 @@ export default function Home() {
             <span className="text-2xl font-bold text-white mx-20 lg:text-6xl">DISCOVER LIMITED <span className="text-transparent bg-clip-text bg-gradient-to-r from-zinc-600 to-zinc-400">SNEAKERS</span>  WITHOUT LIMITATION</span>
           </div>
         </div>
-
-
       </div>
-
-
-
-
-
 
       <div className="max-w-screen-xl my-16 px-4 mx-auto sm:px-6 lg:px-8">
         <header className="text-center">
@@ -76,7 +69,7 @@ export default function Home() {
         <ul className="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
           <li>
             <a href="#" className="relative block group">
-              <img src="https://images.unsplash.com/photo-1618898909019-010e4e234c55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90" />
+              <Image src="https://images.unsplash.com/photo-1618898909019-010e4e234c55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" width={100} height={100} alt="" className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90" />
               <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                 <h3 className="text-xl font-medium text-white">Casual Trainers</h3>
                 <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
@@ -87,7 +80,7 @@ export default function Home() {
           </li>
           <li>
             <a href="#" className="relative block group">
-              <img src="https://images.pexels.com/photos/2048548/pexels-photo-2048548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90" />
+              <Image src="https://images.pexels.com/photos/2048548/pexels-photo-2048548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width={100} height={100} alt="" className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90" />
               <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                 <h3 className="text-xl font-medium text-white">Nike Air Force 1 Low</h3>
                 <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
@@ -98,7 +91,7 @@ export default function Home() {
           </li>
           <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
             <a href="#" className="relative block group">
-              <img src="https://erreizando.com/wp-content/uploads/2021/04/4k-uhd-background-blur-close-up-sneakers-shoes-legs-asphalt.jpg" alt="" className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90" />
+              <Image src="https://erreizando.com/wp-content/uploads/2021/04/4k-uhd-background-blur-close-up-sneakers-shoes-legs-asphalt.jpg" width={100} height={100} alt="" className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90" />
               <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                 <h3 className="text-xl font-medium text-white">Nike Sneakers</h3>
                 <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
@@ -109,8 +102,6 @@ export default function Home() {
           </li>
         </ul>
       </div>
-
-
 
       <div className="p-6 py-12 bg-black text-white">
         <div className="container mx-auto">
@@ -126,8 +117,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-
 
       <section className="dark:bg-gray-800 dark:text-gray-100">
         <div className="container px-6 py-12 mx-auto">
@@ -145,7 +134,7 @@ export default function Home() {
                   <div className="p-6 rounded shadow-md dark:bg-gray-900">
                     <p>I have been looking for the perfect sneaker for the past few months and keep coming back to these. They are lightweight, comfortable and the price is great. I bought them and haven't looked back. These are my go-to sneakers that I wear every day. They are perfect to wear in the house, work, the gym and even for casual wear.</p>
                     <div className="flex items-center mt-4 space-x-4">
-                      <img src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
+                      <Image src="https://source.unsplash.com/50x50/?portrait?1" width={100} height={100} alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
                       <div>
                         <p className="text-lg font-semibold">Leroy Jenkins</p>
                         <div className="flex items-center">
@@ -161,7 +150,7 @@ export default function Home() {
                   <div className="p-6 rounded shadow-md dark:bg-gray-900">
                     <p>I love sneakers, and I have a huge collection of them. From walking shoes to running sneakers, my collection ranges from athletic-inspired shoes to dressy shoes. I have quite a few pairs of Converse sneakers, and I enjoy wearing them to work. However, I don't think there's a pair of sneakers that can get me through the workday like the Converse Street.</p>
                     <div className="flex items-center mt-4 space-x-4">
-                      <img src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
+                      <Image src="https://source.unsplash.com/50x50/?portrait?2" width={100} height={100} alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
                       <div>
                         <p className="text-lg font-semibold">Leroy Jenkins</p>
                         <div className="flex items-center">
@@ -179,7 +168,7 @@ export default function Home() {
                   <div className="p-6 rounded shadow-md dark:bg-gray-900">
                     <p>I got a pair of sneakers for my birthday a few years back. I was excited about it because I was going to use them for running. I never did, but I did wear them every other day. My point is that I liked them so much that I wanted to add a review to the product I received.</p>
                     <div className="flex items-center mt-4 space-x-4">
-                      <img src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
+                      <Image src="https://source.unsplash.com/50x50/?portrait?3" width={100} height={100} alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
                       <div>
                         <p className="text-lg font-semibold">Leroy Jenkins</p>
                         <div className="flex items-center">
@@ -198,7 +187,7 @@ export default function Home() {
                       I wanted to take a minute and write a review about this product.
                       I am a big sneaker fan and I am a bit of a collector.</p>
                     <div className="flex items-center mt-4 space-x-4">
-                      <img src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
+                      <Image src="https://source.unsplash.com/50x50/?portrait?4" width={100} height={100} alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
                       <div>
                         <p className="text-lg font-semibold">Leroy Jenkins</p>
                         <div className="flex items-center">
@@ -218,14 +207,6 @@ export default function Home() {
         </div>
       </section>
 
-
-
-
-
-
     </section >
-
-
-
   )
 }
