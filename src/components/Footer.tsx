@@ -26,7 +26,7 @@ const Footer = () => {
                         <h1 className="max-w-lg text-3xl font-semibold tracking-tight text-gray-800 xl:text-4xl dark:text-white">Subscribe to our newsletter to get update.</h1>
 
                         <div className="flex flex-col mx-auto mt-8 space-y-3 md:space-y-0 md:flex-row">
-                            <input id="email" type="text" value={email} onChange={(e) => emailInputHandler(e)} className="px-4 py-2 bg-zinc-100 text-gray-700 bg-white dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-zinc-900 dark:focus:border-zinc-900 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-zinc-900" placeholder="Email Address" />
+                            <input id="email" type="text" value={email} onChange={(e) => emailInputHandler(e)} className="px-4 py-2 bg-zinc-100 text-gray-700 bg-white border-0 font-normal  dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-zinc-900 dark:focus:border-zinc-900 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-zinc-900" placeholder="Email Address" />
                             <button onClick={suscribeHandler} className="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-black hover:bg-zinc-900 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
                                 Subscribe
                             </button>
