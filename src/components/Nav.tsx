@@ -21,7 +21,7 @@ const Nav = () => {
           <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
             <li><a className="hover:text-zinc-900" href="/">Home</a></li>
             <li><Link className="hover:text-zinc-900" to="/products">Sneakers</Link></li>
-            <li><a className="hover:text-zinc-900" href="/testimonial">Testimonial</a></li>
+            <li><a className="hover:text-zinc-900" href="/reviews">Testimonial</a></li>
           </ul>
           {/* Header Icons */}
           <div className="hidden xl:flex items-center space-x-5 items-center">
