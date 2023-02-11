@@ -3,7 +3,7 @@ import { useGLTF } from '@react-three/drei'
 import { Canvas } from 'react-three-fiber'
 import { OrbitControls, Stage } from '@react-three/drei'
 
-export default function Sneaker(props: any) {
+export default function Sneaker(props) {
   const { nodes, materials } = useGLTF('/shoe.glb')
   return (
     <Canvas camera={{ zoom: 1.1 }} >
