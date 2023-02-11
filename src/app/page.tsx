@@ -14,7 +14,6 @@ export default function Home() {
   const ref = useRef()
   return (
     <section>
-
       <div className="bg-white min-h-[calc(100vh-100px)]">
         <section className="bg-white bg-opacity-30 py-10 sm:py-16 lg:py-16">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -132,7 +131,7 @@ export default function Home() {
               <div className="grid gap-4 md:grid-cols-2">
                 <div className="grid content-center gap-4">
                   <div className="p-6 rounded shadow-md dark:bg-gray-900">
-                    <p>I have been looking for the perfect sneaker for the past few months and keep coming back to these. They are lightweight, comfortable and the price is great. I bought them and haven't looked back. These are my go-to sneakers that I wear every day. They are perfect to wear in the house, work, the gym and even for casual wear.</p>
+                    <p>I have been looking for the perfect sneaker for the past few months and keep coming back to these. They are lightweight, comfortable and the price is great. I bought them and haven&apos;t looked back. These are my go-to sneakers that I wear every day. They are perfect to wear in the house, work, the gym and even for casual wear.</p>
                     <div className="flex items-center mt-4 space-x-4">
                       <Image src="https://source.unsplash.com/50x50/?portrait?1" width={100} height={100} alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
                       <div>
@@ -148,7 +147,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="p-6 rounded shadow-md dark:bg-gray-900">
-                    <p>I love sneakers, and I have a huge collection of them. From walking shoes to running sneakers, my collection ranges from athletic-inspired shoes to dressy shoes. I have quite a few pairs of Converse sneakers, and I enjoy wearing them to work. However, I don't think there's a pair of sneakers that can get me through the workday like the Converse Street.</p>
+                    <p>I love sneakers, and I have a huge collection of them. From walking shoes to running sneakers, my collection ranges from athletic-inspired shoes to dressy shoes. I have quite a few pairs of Converse sneakers, and I enjoy wearing them to work. However, I don&apos;t think there&apos;s a pair of sneakers that can get me through the workday like the Converse Street.</p>
                     <div className="flex items-center mt-4 space-x-4">
                       <Image src="https://source.unsplash.com/50x50/?portrait?2" width={100} height={100} alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
                       <div>
