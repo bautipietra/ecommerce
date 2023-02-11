@@ -1,7 +1,5 @@
-import React, { Suspense, useRef } from 'react'
+import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { Canvas } from 'react-three-fiber'
-import { OrbitControls, Stage } from '@react-three/drei'
 import Sneaker from '../../components/Sneaker'
 
 export default function Home() {
@@ -23,14 +21,7 @@ export default function Home() {
                 </a>
               </div>
               <div className='h-64 sm:h-full w-full'>
-                <Canvas camera={{ zoom: 1.1 }} >
-                  <Suspense fallback={null}>
-                    <Stage shadows>
-                      <Sneaker></Sneaker>
-                    </Stage>
-                  </Suspense>
-                  <OrbitControls enableZoom={false} autoRotate></OrbitControls>
-                </Canvas>
+                <Sneaker></Sneaker>
               </div>
             </div>
           </div>
