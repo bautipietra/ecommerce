@@ -1,6 +1,4 @@
-'use client'
-import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from 'react-router-dom'
 import React from 'react'
 import Logo from '../../public/sneakers.png'
 
@@ -22,7 +20,7 @@ const Nav = () => {
           {/* Nav Links */}
           <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
             <li><a className="hover:text-zinc-900" href="#">Home</a></li>
-            <li><Link className="hover:text-zinc-900" href="/products">Category</Link></li>
+            <li><Link className="hover:text-zinc-900" to="/products">Category</Link></li>
             <li><a className="hover:text-zinc-900" href="#">Collections</a></li>
             <li><a className="hover:text-zinc-900" href="#">Contact Us</a></li>
           </ul>

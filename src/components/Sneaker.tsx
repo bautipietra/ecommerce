@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function Sneaker(props) {
+export default function Sneaker(props: any) {
   const { nodes, materials } = useGLTF('/shoe.glb')
   return (
     <group {...props} dispose={null}>
