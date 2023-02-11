@@ -6,7 +6,7 @@ const Footer = () => {
 
     const [email, setEmail] = useState('')
 
-    const emailInputHandler = (e: object) => {
+    const emailInputHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
         setEmail(e.target.value)
     }
 
