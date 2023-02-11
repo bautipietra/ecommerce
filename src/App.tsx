@@ -3,6 +3,8 @@ import { Routes, Route } from 'react-router-dom'
 import Footer from './components/Footer'
 import Nav from './components/Nav'
 import Home from './pages/Home/Home'
+import Login from './pages/Login/Login'
+import Register from './pages/Register/Register'
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
       <Nav></Nav>
       <Routes>
         <Route path="/" element={<Home></Home>} />
+        <Route path="/login" element={<Login></Login>} />
+        <Route path="/register" element={<Register></Register>} />
       </Routes>
       <Footer></Footer>
     </div>
