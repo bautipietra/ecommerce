@@ -3,6 +3,7 @@ import isValidEmail from '../../utils/validateEmail'
 import isValidPassword from '../../utils/validatePassword'
 import toast from 'react-hot-toast'
 import Swal from 'sweetalert2'
+import { Link } from 'react-router-dom'
 
 const Register = () => {
 
@@ -85,7 +86,7 @@ flex items-center justify-center">
                 Google</span>
             </div>
           </button>
-          <p className="mt-4 text-sm font-semibold text-zinc-600">Already have an account? <a href="/login" className="text-blue-500 hover:text-blue-700 font-semibold">Log in</a></p>
+          <p className="mt-4 text-sm font-semibold text-zinc-600">Already have an account? <Link to="/login" className="text-blue-500 hover:text-blue-700 font-semibold">Log in</Link></p>
         </div>
       </div>
     </section>

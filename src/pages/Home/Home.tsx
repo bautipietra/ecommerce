@@ -13,12 +13,12 @@ export default function Home() {
               <div className='grid mb-8 sm:py-16'>
                 <h1 className="mt-4 text-4xl font-bold text-black text-center lg:mt-8 lg:text-start  sm:text-6xl xl:text-8xl">Great way to boost  your <span className="text-transparent bg-clip-text bg-gradient-to-r from-zinc-600 to-zinc-400">style!</span></h1>
                 {/* <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl">Grow your career fast with right mentor.</p> */}
-                <a href="/products" className="justify-self-center lg:justify-self-start inline-flex items-center px-6 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-black lg:mt-16 hover:bg-zinc-900 focus:bg-zinc-900" role="button">
+                <Link to="/products" className="justify-self-center lg:justify-self-start inline-flex items-center px-6 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-black lg:mt-16 hover:bg-zinc-900 focus:bg-zinc-900" role="button">
                   Shop now
                   <svg className="w-6 h-6 ml-8 -mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                </a>
+                </Link>
               </div>
               <div className='h-64 sm:h-full w-full'>
                 <Sneaker></Sneaker>

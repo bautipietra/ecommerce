@@ -1,5 +1,6 @@
 import React from 'react'
 import toast from 'react-hot-toast'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
 
@@ -25,7 +26,7 @@ flex items-center justify-center">
       focus:bg-white focus:outline-none" required />
             </div>
             <div className="mt-4">
-              <a href="#" className="text-sm font-semibold text-zinc-600 hover:text-black focus:text-black transition-colors">Forgot Password?</a>
+              <Link to="#" className="text-sm font-semibold text-zinc-600 hover:text-black focus:text-black transition-colors">Forgot Password?</Link>
             </div>
             <button type="submit" onClick={(e) => submitHandler(e)} className="w-full block bg-black hover:bg-zinc-800 focus:bg-zinc-800 text-white font-semibold
     px-4 py-3 mt-6 transition-colors">Log In</button>
@@ -40,8 +41,8 @@ flex items-center justify-center">
                 Google</span>
             </div>
           </button>
-          <p className="mt-4 text-sm font-semibold text-zinc-600">Need an account? <a href="/register" className="text-blue-500 hover:text-blue-700 font-semibold">Create an
-            account</a></p>
+          <p className="mt-4 text-sm font-semibold text-zinc-600">Need an account? <Link to="/register" className="text-blue-500 hover:text-blue-700 font-semibold">Create an
+            account</Link></p>
         </div>
       </div>
     </section>
