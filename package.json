@@ -11,10 +11,12 @@
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@react-three/drei": "^9.54.0",
+    "@types/react-query": "^1.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.7.1",
+    "react-query": "^3.39.3",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.8.1",
     "react-three-fiber": "^6.0.13",
