@@ -10,7 +10,17 @@ function App() {
 
   return (
     <div className='w-full overflow-x-hidden'>
-      <Toaster position="top-center" />
+      <Toaster position="top-center"
+        toastOptions={
+          {
+            style: {
+              borderRadius: '10px',
+              background: '#333',
+              color: '#fff',
+            },
+          }
+        }
+      />
       <Nav></Nav>
       <Routes>
         <Route path="/" element={<Home></Home>} />
