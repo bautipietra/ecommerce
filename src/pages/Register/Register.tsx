@@ -4,6 +4,8 @@ import isValidPassword from '../../utils/validatePassword'
 import toast from 'react-hot-toast'
 import Swal from 'sweetalert2'
 import { Link } from 'react-router-dom'
+import { Input } from "@material-tailwind/react";
+import { BiShow, BiHide } from 'react-icons/bi'
 
 const Register = () => {
 
@@ -49,22 +51,21 @@ const Register = () => {
     }
   }
 
+  const [viewPassword, setViewPassword] = useState(false)
 
   return (
     <section className="flex flex-col md:flex-row h-screen items-center">
       <div className="bg-white w-full md:m-auto md:max-w-md lg:max-w-full md:w-1/2 xl:w-1/3 h-screen px-6 lg:px-16 xl:px-12
 flex items-center justify-center">
         <div className="w-full h-[calc(100vh-124px)] max-w-sm">
-          <h1 className="text-xl md:text-2xl font-bold leading-tight mt-12">Register your account</h1>
+          <h1 className="text-xl md:text-3xl font-bold leading-tight mt-12 text-center">Register your account</h1>
           <form className="mt-6" action="#" method="POST">
             <div>
-              <label className="block text-zinc-600">Email Address</label>
-              <input onChange={(e) => emailInputHandler(e)} type="email" placeholder="Enter Email Address" className="w-full px-4 py-3 bg-zinc-100 border-0  mt-2 focus:border-blue-500 focus:bg-white focus:outline-none" autoFocus autoComplete='true' required />
+              <Input variant="standard" label="Email" type={'email'} onChange={(e) => emailInputHandler(e)} className='border-r-0 border-t-0 border-l-0 outline-none focus:ring-0' autoFocus autoComplete='true' required />
             </div>
-            <div className="mt-4">
-              <label className="block text-zinc-600">Password</label>
-              <input onChange={(e) => passwordInputHandler(e)} type="password" placeholder="Enter Password" minLength={6} className="w-full px-4 py-3 bg-zinc-100 border-0  mt-2 focus:border-blue-500
-      focus:bg-white focus:outline-none" required />
+            <div className="mt-4 relative w-full h-full">
+              <Input variant="standard" label="Password" type={viewPassword ? 'text' : 'password'} className='border-r-0 border-t-0 border-l-0 outline-none focus:ring-0 pr-10' onChange={(e) => passwordInputHandler(e)} minLength={6} required />
+              {viewPassword ? <BiHide onClick={() => setViewPassword(!viewPassword)} className='absolute right-0 top-0 mt-4 mr-4 cursor-pointer' /> : <BiShow onClick={() => setViewPassword(!viewPassword)} className='absolute right-0 top-0 mt-4 mr-4 cursor-pointer' />}
             </div>
             <div className='form-check my-4'>
               <input onClick={termsHandler} className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckDefault" />
@@ -86,7 +87,7 @@ flex items-center justify-center">
                 Google</span>
             </div>
           </button>
-          <p className="mt-4 text-sm font-semibold text-zinc-600">Already have an account? <Link to="/login" className="text-blue-500 hover:text-blue-700 font-semibold">Log in</Link></p>
+          <p className="mt-4 text-sm font-semibold text-zinc-600 text-center">Already have an account? <Link to="/login" className="text-blue-500 hover:text-blue-700 font-semibold">Log in</Link></p>
         </div>
       </div>
     </section>
