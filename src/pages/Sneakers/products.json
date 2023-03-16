@@ -1,0 +1,1514 @@
+[
+  {
+    "id": "0f6cb25f-ef5b-4937-97ab-f57e0f9a45e3",
+    "brand": "Jordan",
+    "colorway": "Sail/Black-Atmosphere Grey",
+    "gender": "men",
+    "name": "Sail",
+    "releaseDate": "2023-09-08",
+    "retailPrice": 140,
+    "shoe": "Jordan 1 Retro Low OG EX",
+    "styleId": "CZ0790-101",
+    "title": "Jordan 1 Retro Low OG EX Sail",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-EX-Sail.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675276703",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-EX-Sail.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675276703",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-EX-Sail.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675276703"
+    }
+  },
+  {
+    "id": "597c7a0d-de49-44f7-be50-d055a1026282",
+    "brand": "Jordan",
+    "colorway": "Black/Muslin/Tech Grey/White/Sail",
+    "gender": "men",
+    "name": "Black Cement",
+    "releaseDate": "2023-06-23",
+    "retailPrice": 140,
+    "shoe": "Jordan 1 Retro Low OG",
+    "styleId": "CZ0790-001",
+    "title": "Jordan 1 Retro Low OG Black Cement",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-Black-Cement.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675276708",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-Black-Cement.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675276708",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-Black-Cement.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675276708"
+    }
+  },
+  {
+    "id": "5411080a-eb5e-4dda-9c83-6f4a0ab0d6ef",
+    "brand": "Jordan",
+    "colorway": "Indigo Haze/Fire Red-Metallic Silver-Alabaster-Flint Grey",
+    "gender": "women",
+    "name": "Indigo Haze (W)",
+    "releaseDate": "2023-06-08",
+    "retailPrice": 180,
+    "shoe": "Jordan 5 Retro Low",
+    "styleId": "FJ4563-500",
+    "title": "Jordan 5 Retro Low Indigo Haze (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-5-Retro-Low-Indigo-Haze-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673517054",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-5-Retro-Low-Indigo-Haze-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673517054",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-5-Retro-Low-Indigo-Haze-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673517054"
+    }
+  },
+  {
+    "id": "895221f5-bde3-434b-8ada-45896533f1c9",
+    "brand": "Jordan",
+    "colorway": "Sail/Pale Vanilla-Black",
+    "gender": "men",
+    "name": "Craft Vibrations Of Naija",
+    "releaseDate": "2023-05-27",
+    "retailPrice": 180,
+    "shoe": "Jordan 1 Retro High OG",
+    "styleId": "FD8631-100",
+    "title": "Jordan 1 Retro High OG Craft Vibrations Of Naija",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Craft-Vibrations-Of-Naija.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675018828",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Craft-Vibrations-Of-Naija.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675018828",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Craft-Vibrations-Of-Naija.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675018828"
+    }
+  },
+  {
+    "id": "a0a7e47c-f8a1-491f-8382-489d47a630c0",
+    "brand": "Jordan",
+    "colorway": "White/Tour Yellow/Sail",
+    "gender": "women",
+    "name": "Tour Yellow Snakeskin (W)",
+    "releaseDate": "2023-05-11",
+    "retailPrice": 190,
+    "shoe": "Jordan 11 Retro Low",
+    "styleId": "AH7860-107",
+    "title": "Jordan 11 Retro Low Tour Yellow Snakeskin (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-11-Retro-Low-Tour-Yellow-Snakeskin-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675276703",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-11-Retro-Low-Tour-Yellow-Snakeskin-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675276703",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-11-Retro-Low-Tour-Yellow-Snakeskin-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675276703"
+    }
+  },
+  {
+    "id": "9fe46a0e-a37d-4e62-aae2-7cdeb715ff35",
+    "brand": "Jordan",
+    "colorway": "White/Cement Grey/Sail/Black",
+    "gender": "men",
+    "name": "Cement Grey",
+    "releaseDate": "2023-05-06",
+    "retailPrice": 175,
+    "shoe": "Jordan 2 Retro",
+    "styleId": "DR8884-100",
+    "title": "Jordan 2 Retro Cement Grey",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-2-Retro-Cement-Grey.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675276709",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-2-Retro-Cement-Grey.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675276709",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-2-Retro-Cement-Grey.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675276709"
+    }
+  },
+  {
+    "id": "f9858405-6dd2-4ae7-a5c9-96300103b6c1",
+    "brand": "Jordan",
+    "colorway": "Black/University Red/Flint Grey/White",
+    "gender": "men",
+    "name": "Black Flint",
+    "releaseDate": "2023-04-22",
+    "retailPrice": 200,
+    "shoe": "Jordan 13 Retro",
+    "styleId": "DJ5982-060",
+    "title": "Jordan 13 Retro Black Flint",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-13-Retro-Black-Flint.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191295",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-13-Retro-Black-Flint.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191295",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-13-Retro-Black-Flint.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191295"
+    }
+  },
+  {
+    "id": "7afb842f-6b65-4d7c-848a-4e3a2a138afd",
+    "brand": "Nike",
+    "colorway": "Phantom/Safety Orange-Malachite",
+    "gender": "unisex",
+    "name": "Jarritos",
+    "releaseDate": "2023-04-01",
+    "retailPrice": 130,
+    "shoe": "Nike SB Dunk Low",
+    "styleId": "FD0860-001",
+    "title": "Nike SB Dunk Low Jarritos",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-Jarritos.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670492642",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-Jarritos.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670492642",
+      "thumbUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-Jarritos.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670492642"
+    }
+  },
+  {
+    "id": "09218d3a-37e0-4b8e-b4de-507f3e7b3960",
+    "brand": "Jordan",
+    "colorway": "Sail/University Red/Black/Medium",
+    "gender": "toddler",
+    "name": "Travis Scott Olive (TD)",
+    "releaseDate": "2023-03-25",
+    "retailPrice": 50,
+    "shoe": "Jordan 1 Retro Low OG SP",
+    "styleId": "DZ5908-106",
+    "title": "Jordan 1 Retro Low OG SP Travis Scott Olive (TD)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-SP-Travis-Scott-Olive-TD.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660594",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-SP-Travis-Scott-Olive-TD.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660594",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-SP-Travis-Scott-Olive-TD.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660594"
+    }
+  },
+  {
+    "id": "6a44ad44-0c58-46c4-90e8-cf77cf6b5f7a",
+    "brand": "Jordan",
+    "colorway": "Sail/University Red/Black/Medium",
+    "gender": "preschool",
+    "name": "Travis Scott Olive (PS)",
+    "releaseDate": "2023-03-25",
+    "retailPrice": 60,
+    "shoe": "Jordan 1 Retro Low OG SP",
+    "styleId": "DZ5909-106",
+    "title": "Jordan 1 Retro Low OG SP Travis Scott Olive (PS)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-SP-Travis-Scott-Olive-PS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660595",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-SP-Travis-Scott-Olive-PS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660595",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-Low-OG-SP-Travis-Scott-Olive-PS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660595"
+    }
+  },
+  {
+    "id": "20e66372-5c1e-435c-adf7-89070effeace",
+    "brand": "Nike",
+    "colorway": "Black/White",
+    "gender": "men",
+    "name": "Tiger Stripes Black White",
+    "releaseDate": "2023-03-16",
+    "retailPrice": 170,
+    "shoe": "Nike Air Max Penny 1",
+    "styleId": "FD0783-010",
+    "title": "Nike Air Max Penny 1 Tiger Stripes Black White",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Max-Penny-1-Tiger-Stripes-Black-White.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1668597648",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Max-Penny-1-Tiger-Stripes-Black-White.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1668597648",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Max-Penny-1-Tiger-Stripes-Black-White.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1668597648"
+    }
+  },
+  {
+    "id": "726706b0-cde9-4df3-aa5c-81b120c79560",
+    "brand": "Jordan",
+    "colorway": "Summit White/Fire Red/Black/Cement Grey",
+    "gender": "men",
+    "name": "White Cement Reimagined",
+    "releaseDate": "2023-03-11",
+    "retailPrice": 210,
+    "shoe": "Jordan 3 Retro",
+    "styleId": "DN3707-100",
+    "title": "Jordan 3 Retro White Cement Reimagined",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/air-jordan-3-retro-white-cement-reimagined.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1672158143",
+      "smallImageUrl": "https://images.stockx.com/images/air-jordan-3-retro-white-cement-reimagined.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1672158143",
+      "thumbUrl": "https://images.stockx.com/images/air-jordan-3-retro-white-cement-reimagined.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1672158143"
+    }
+  },
+  {
+    "id": "d15fdc05-77d8-4cd7-b20a-cbf116c9f6c2",
+    "brand": "Nike",
+    "colorway": "Black/White/Black/University Red",
+    "gender": "men",
+    "name": "FaZe Clan Bred",
+    "releaseDate": "2023-03-09",
+    "retailPrice": 160,
+    "shoe": "Nike Zoom LeBron NXXT Gen",
+    "styleId": "DR8784-001",
+    "title": "Nike Zoom LeBron NXXT Gen FaZe Clan Bred",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Lebron-Zoom-NXXT-Gen-FaZe-Clan-Bred.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264574",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Lebron-Zoom-NXXT-Gen-FaZe-Clan-Bred.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264574",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Lebron-Zoom-NXXT-Gen-FaZe-Clan-Bred.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264574"
+    }
+  },
+  {
+    "id": "d316b2f2-f380-4a3e-8f56-f3a1da008e32",
+    "brand": "Jordan",
+    "colorway": "Team Red/University Red-Sail-Muslin",
+    "gender": "women",
+    "name": "Tiki Leaf Team Red (W)",
+    "releaseDate": "2023-03-08",
+    "retailPrice": 135,
+    "shoe": "Jordan 1 Mid SE",
+    "styleId": "DZ2820-601",
+    "title": "Jordan 1 Mid SE Tiki Leaf Team Red (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Mid-SE-Tiki-Leaf-Team-Red-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673983978",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Mid-SE-Tiki-Leaf-Team-Red-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673983978",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Mid-SE-Tiki-Leaf-Team-Red-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673983978"
+    }
+  },
+  {
+    "id": "f247bc49-dc50-46c8-b173-28f792a82077",
+    "brand": "Nike",
+    "colorway": "Black/Tiffany Blue",
+    "gender": "men",
+    "name": "Tiffany And Co.",
+    "releaseDate": "2023-03-07",
+    "retailPrice": 400,
+    "shoe": "Nike Air Force 1 Low SP",
+    "styleId": "DZ1382-001",
+    "title": "Nike Air Force 1 Low SP Tiffany And Co.",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/nike-air-force-1-low-sp-tiffany-and-co.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675180479",
+      "smallImageUrl": "https://images.stockx.com/images/nike-air-force-1-low-sp-tiffany-and-co.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675180479",
+      "thumbUrl": "https://images.stockx.com/images/nike-air-force-1-low-sp-tiffany-and-co.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675180479"
+    }
+  },
+  {
+    "id": "69351631-c019-45dc-b5f5-ca793d9b81c9",
+    "brand": "Jordan",
+    "colorway": "University Blue/Black/White",
+    "gender": "men",
+    "name": "UNC University Blue",
+    "releaseDate": "2023-03-05",
+    "retailPrice": 225,
+    "shoe": "Jordan 5 Retro",
+    "styleId": "DV1310-401",
+    "title": "Jordan 5 Retro UNC University Blue",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-5-Retro-UNC-University-Blue.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673374938",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-5-Retro-UNC-University-Blue.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673374938",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-5-Retro-UNC-University-Blue.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673374938"
+    }
+  },
+  {
+    "id": "232f5b84-700c-41e6-8a2c-9e7bdcf40e92",
+    "brand": "Nike",
+    "colorway": "Metallic Gold/Varsity Red-White-Black",
+    "gender": "men",
+    "name": "Golden Bullet (2023)",
+    "releaseDate": "2023-03-03",
+    "retailPrice": 185,
+    "shoe": "Nike Air Max 97 OG",
+    "styleId": "DM0028-700",
+    "title": "Nike Air Max 97 OG Golden Bullet (2023)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Max-97-Gold-Bullet-2023-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675156235",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Max-97-Gold-Bullet-2023-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675156235",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Max-97-Gold-Bullet-2023-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675156235"
+    }
+  },
+  {
+    "id": "2b0dd068-9a7e-43a6-ab28-f7989b08084a",
+    "brand": "Nike",
+    "colorway": "Metallic Gold/Varsity Red-White-Black",
+    "gender": "women",
+    "name": "Golden Bullet (W)",
+    "releaseDate": "2023-03-03",
+    "retailPrice": 185,
+    "shoe": "Nike Air Max 97 OG",
+    "styleId": "DQ9131-700",
+    "title": "Nike Air Max 97 OG Golden Bullet (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Max-97-OG-Gold-Bullet-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673461376",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Max-97-OG-Gold-Bullet-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673461376",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Max-97-OG-Gold-Bullet-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673461376"
+    }
+  },
+  {
+    "id": "93b9b8ba-a202-4d5a-be4c-944a8fd5c707",
+    "brand": "Jordan",
+    "colorway": "Metallic Silver/Fire Red-Wolf Grey-Black",
+    "gender": "women",
+    "name": "Metallic Silver (W)",
+    "releaseDate": "2023-03-03",
+    "retailPrice": 180,
+    "shoe": "Jordan 14 Retro",
+    "styleId": "DH4121-060",
+    "title": "Jordan 14 Retro Metallic Silver (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-14-Retro-Metallic-Silver-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673374942",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-14-Retro-Metallic-Silver-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673374942",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-14-Retro-Metallic-Silver-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673374942"
+    }
+  },
+  {
+    "id": "3df30ed2-a43f-4394-861d-b52a1a7c4525",
+    "brand": "Jordan",
+    "colorway": "White/Black-Burgundy Crush",
+    "gender": "women",
+    "name": "A Ma Maniére White (W)",
+    "releaseDate": "2023-03-02",
+    "retailPrice": 225,
+    "shoe": "Jordan 12 Retro SP",
+    "styleId": "DV6989-100",
+    "title": "Jordan 12 Retro SP A Ma Maniére White (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-A-Ma-Maniere-White-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1671524351",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-A-Ma-Maniere-White-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1671524351",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-A-Ma-Maniere-White-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1671524351"
+    }
+  },
+  {
+    "id": "4807f7ad-a18d-4810-9034-62c70615ac3f",
+    "brand": "Jordan",
+    "colorway": "Black/Black-Burgundy Crush",
+    "gender": "women",
+    "name": "A Ma Maniére Black (W)",
+    "releaseDate": "2023-03-02",
+    "retailPrice": 225,
+    "shoe": "Jordan 12 Retro SP",
+    "styleId": "DV6989-001",
+    "title": "Jordan 12 Retro SP A Ma Maniére Black (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-A-Ma-Maniere-Black-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1671524351",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-A-Ma-Maniere-Black-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1671524351",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-A-Ma-Maniere-Black-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1671524351"
+    }
+  },
+  {
+    "id": "5f66c159-28a1-4f23-9421-2e0a3d23ff81",
+    "brand": "Jordan",
+    "colorway": "Black/Black/Burgundy Crush",
+    "gender": "preschool",
+    "name": "A Ma Maniére Black (PS)",
+    "releaseDate": "2023-03-02",
+    "retailPrice": 85,
+    "shoe": "Jordan 12 Retro SP",
+    "styleId": "",
+    "title": "Jordan 12 Retro SP A Ma Maniére Black (PS)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-A-Ma-Maniere-Black-PS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1665516037",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-A-Ma-Maniere-Black-PS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1665516037",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-12-Retro-A-Ma-Maniere-Black-PS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1665516037"
+    }
+  },
+  {
+    "id": "7ea982a1-ef10-4538-b8b2-b69da275d085",
+    "brand": "Nike",
+    "colorway": "White/Black/White/Gum Light Brown",
+    "gender": "men",
+    "name": "White Gum",
+    "releaseDate": "2023-03-01",
+    "retailPrice": 110,
+    "shoe": "Nike SB Dunk Low Pro",
+    "styleId": "CD2563-101",
+    "title": "Nike SB Dunk Low Pro White Gum",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-White-Gum-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1672818220",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-White-Gum-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1672818220",
+      "thumbUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-White-Gum-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1672818220"
+    }
+  },
+  {
+    "id": "8e8daa88-674f-42a2-8085-4473c2cf18bf",
+    "brand": "Nike",
+    "colorway": "Black/Black-Sesame-Coconut Milk",
+    "gender": "women",
+    "name": "Black Sesame (W)",
+    "releaseDate": "2023-03-01",
+    "retailPrice": 160,
+    "shoe": "Nike Zoom Vomero 5",
+    "styleId": "FD0533-010",
+    "title": "Nike Zoom Vomero 5 Black Sesame (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Zoom-Vomero-5-Black-Sesame-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673718999",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Zoom-Vomero-5-Black-Sesame-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673718999",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Zoom-Vomero-5-Black-Sesame-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673718999"
+    }
+  },
+  {
+    "id": "a4956c1c-cb66-47b5-8e25-3dffec135ae8",
+    "brand": "Nike",
+    "colorway": "Game Royal/Sail/Grey Fog",
+    "gender": "men",
+    "name": "Fly Streetwear",
+    "releaseDate": "2023-03-01",
+    "retailPrice": 120,
+    "shoe": "Nike SB Dunk Low Pro",
+    "styleId": "DQ5130-400",
+    "title": "Nike SB Dunk Low Pro Fly Streetwear",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-Pro-Fly-Streetwear.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1668611273",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-Pro-Fly-Streetwear.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1668611273",
+      "thumbUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-Pro-Fly-Streetwear.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1668611273"
+    }
+  },
+  {
+    "id": "ab96578f-6259-440f-8658-7111776d20e5",
+    "brand": "Nike",
+    "colorway": "Football Grey/Mineral Teal/Pearl Pink",
+    "gender": "child",
+    "name": "Mineral Teal (GS)",
+    "releaseDate": "2023-03-01",
+    "retailPrice": 85,
+    "shoe": "Nike Dunk Low",
+    "styleId": "FD1232-002",
+    "title": "Nike Dunk Low Mineral Teal (GS)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Dunk-Low-Mineral-Teal-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670428722",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Dunk-Low-Mineral-Teal-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670428722",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Dunk-Low-Mineral-Teal-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670428722"
+    }
+  },
+  {
+    "id": "b15858cc-f642-4f87-8de8-dd178185f012",
+    "brand": "Nike",
+    "colorway": "White/Gum",
+    "gender": "men",
+    "name": "White Gum",
+    "releaseDate": "2023-03-01",
+    "retailPrice": 130,
+    "shoe": "Nike Air Huarache Craft",
+    "styleId": "DQ8031-101",
+    "title": "Nike Air Huarache Craft White Gum",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Huarache-Craft-White-Gum.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1666695725",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Huarache-Craft-White-Gum.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1666695725",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Huarache-Craft-White-Gum.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1666695725"
+    }
+  },
+  {
+    "id": "c34a77e4-5bf8-4cdf-8f99-bb3445eac23d",
+    "brand": "Nike",
+    "colorway": "Photon Dust/Chrome/Gridiron/Sail",
+    "gender": "women",
+    "name": "Photon Dust Metallic Silver (W)",
+    "releaseDate": "2023-03-01",
+    "retailPrice": 160,
+    "shoe": "Nike Zoom Vomero 5",
+    "styleId": "FD0884-025",
+    "title": "Nike Zoom Vomero 5 Photon Dust Metallic Silver (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Zoom-Vomero-5-Photon-Dust-Metallic-Silver-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673719000",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Zoom-Vomero-5-Photon-Dust-Metallic-Silver-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673719000",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Zoom-Vomero-5-Photon-Dust-Metallic-Silver-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673719000"
+    }
+  },
+  {
+    "id": "c3b66a22-b174-4813-8f46-4b66367a0017",
+    "brand": "Jordan",
+    "colorway": "Black/Fire Red/Cement Grey/White",
+    "gender": "men",
+    "name": "Black Fire Red Cement",
+    "releaseDate": "2023-03-01",
+    "retailPrice": 150,
+    "shoe": "Jordan 1 High Zoom Air CMFT 2",
+    "styleId": "DV1307-060",
+    "title": "Jordan 1 High Zoom Air CMFT 2 Black Fire Red Cement",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-High-Zoom-Air-CMFT-2-Black-Fire-Red-Cement.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670428677",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-High-Zoom-Air-CMFT-2-Black-Fire-Red-Cement.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670428677",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-High-Zoom-Air-CMFT-2-Black-Fire-Red-Cement.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670428677"
+    }
+  },
+  {
+    "id": "c5cfcef6-4b7b-405e-a6da-26984b8ed2e4",
+    "brand": "Nike",
+    "colorway": "Multi-Color/Black-Racer Blue",
+    "gender": "men",
+    "name": "Multi-Color 2.0",
+    "releaseDate": "2023-03-01",
+    "retailPrice": 160,
+    "shoe": "Nike Air Max Flyknit Racer",
+    "styleId": "FD2765-900",
+    "title": "Nike Air Max Flyknit Racer Multi-Color 2.0",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Max-Flyknit-Racer-Multi-Color-20.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674539002",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Max-Flyknit-Racer-Multi-Color-20.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674539002",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Max-Flyknit-Racer-Multi-Color-20.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674539002"
+    }
+  },
+  {
+    "id": "c6dfc1d1-2cf7-4e53-9ffc-339fb899c84a",
+    "brand": "Nike",
+    "colorway": "Black/White/Black/Gum Light Brown",
+    "gender": "men",
+    "name": "Black Gum",
+    "releaseDate": "2023-03-01",
+    "retailPrice": 110,
+    "shoe": "Nike SB Dunk Low Pro",
+    "styleId": "CD2563-006",
+    "title": "Nike SB Dunk Low Pro Black Gum",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-Black-Gum-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673088598",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-Black-Gum-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673088598",
+      "thumbUrl": "https://images.stockx.com/images/Nike-SB-Dunk-Low-Black-Gum-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673088598"
+    }
+  },
+  {
+    "id": "e45b0e8f-bd96-44ab-b43c-2e6e45a0c338",
+    "brand": "Nike",
+    "colorway": "Light Silver/Citron Tint-Ocean Bliss-Pink Oxford-Sanddrift",
+    "gender": "men",
+    "name": "Ocean Bliss",
+    "releaseDate": "2023-03-01",
+    "retailPrice": 130,
+    "shoe": "Nike Air Huarache Craft",
+    "styleId": "DQ8031-002",
+    "title": "Nike Air Huarache Craft Ocean Bliss",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Huarache-Craft-Ocean-Bliss.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1666772192",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Huarache-Craft-Ocean-Bliss.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1666772192",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Huarache-Craft-Ocean-Bliss.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1666772192"
+    }
+  },
+  {
+    "id": "e6df1cf5-341d-4430-a411-e1a973b50ad1",
+    "brand": "Nike",
+    "colorway": "Summit White/Light Smoke Gray/Comet Blue/Anthracite",
+    "gender": "men",
+    "name": "Summit White Comet Blue",
+    "releaseDate": "2023-03-01",
+    "retailPrice": 130,
+    "shoe": "Nike Air Huarache Craft",
+    "styleId": "DR0286-100",
+    "title": "Nike Air Huarache Craft Summit White Comet Blue",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Huarache-Craft-Summit-White-Comet-Blue.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670211681",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Huarache-Craft-Summit-White-Comet-Blue.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670211681",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Huarache-Craft-Summit-White-Comet-Blue.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670211681"
+    }
+  },
+  {
+    "id": "e81f1d47-b54c-42ec-a817-558ac6fa85e9",
+    "brand": "Nike",
+    "colorway": "White/Bright Crimson/Fuchsia Dream/Baltic Blue/Cosmic Fuchsia/Vivid Orange",
+    "gender": "women",
+    "name": "Lunar New Year (W)",
+    "releaseDate": "2023-03-01",
+    "retailPrice": 130,
+    "shoe": "Nike Air Max 90 Futura",
+    "styleId": "FD0821-100",
+    "title": "Nike Air Max 90 Futura Lunar New Year (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Max-90-Futura-Lunar-New-Year-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670428723",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Max-90-Futura-Lunar-New-Year-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670428723",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Max-90-Futura-Lunar-New-Year-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1670428723"
+    }
+  },
+  {
+    "id": "30d133d7-10bf-498a-9db6-37f9409dbb27",
+    "brand": "Jordan",
+    "colorway": "White/Medium Grey/Cool Grey",
+    "gender": "men",
+    "name": "Cool Grey",
+    "releaseDate": "2023-02-25",
+    "retailPrice": 200,
+    "shoe": "Jordan 6 Retro",
+    "styleId": "CT8529-100",
+    "title": "Jordan 6 Retro Cool Grey",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-6-Retro-Cool-Grey.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673374941",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-6-Retro-Cool-Grey.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673374941",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-6-Retro-Cool-Grey.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673374941"
+    }
+  },
+  {
+    "id": "4c50dd1a-4d65-4b8f-8b4d-fd83d3146571",
+    "brand": "Jordan",
+    "colorway": "White/Medium Grey/Cool Grey",
+    "gender": "toddler",
+    "name": "Cool Grey (2023) (TD)",
+    "releaseDate": "2023-02-25",
+    "retailPrice": 75,
+    "shoe": "Jordan 6 Retro",
+    "styleId": "DV3606-100",
+    "title": "Jordan 6 Retro Cool Grey (2023) (TD)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-6-Retro-Cool-Grey-TD-2023.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660599",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-6-Retro-Cool-Grey-TD-2023.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660599",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-6-Retro-Cool-Grey-TD-2023.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660599"
+    }
+  },
+  {
+    "id": "7b04c9aa-3251-4792-b0cf-552508fa2d8c",
+    "brand": "Jordan",
+    "colorway": "Tech Grey/Muslin/Black/White",
+    "gender": "men",
+    "name": "White Cement",
+    "releaseDate": "2023-02-25",
+    "retailPrice": 180,
+    "shoe": "Jordan 1 Retro High OG",
+    "styleId": "DZ5485-052",
+    "title": "Jordan 1 Retro High OG White Cement",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-White-Cement.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674671709",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-White-Cement.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674671709",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-White-Cement.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674671709"
+    }
+  },
+  {
+    "id": "f4b5d87e-1ac3-40a6-ba86-1a2ea6086a9d",
+    "brand": "Jordan",
+    "colorway": "White/Medium Grey/Cool Grey",
+    "gender": "child",
+    "name": "Cool Grey (2023) (GS)",
+    "releaseDate": "2023-02-25",
+    "retailPrice": 150,
+    "shoe": "Jordan 6 Retro",
+    "styleId": "384665-100",
+    "title": "Jordan 6 Retro Cool Grey (2023) (GS)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-6-Retro-Cool-Grey-GS-2023.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660633",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-6-Retro-Cool-Grey-GS-2023.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660633",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-6-Retro-Cool-Grey-GS-2023.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660633"
+    }
+  },
+  {
+    "id": "700a9bd7-58c7-4f1a-ad29-67f72bcffafd",
+    "brand": "Reebok",
+    "colorway": "Core Black/Footwear White/Smash Orange S23-R",
+    "gender": "men",
+    "name": "Core Black Footwear White",
+    "releaseDate": "2023-02-23",
+    "retailPrice": 140,
+    "shoe": "Reebok Nano X3",
+    "styleId": "HP6042",
+    "title": "Reebok Nano X3 Core Black Footwear White",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Reebok-Nano-X3-Core-Black-Footwear-White.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675105262",
+      "smallImageUrl": "https://images.stockx.com/images/Reebok-Nano-X3-Core-Black-Footwear-White.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675105262",
+      "thumbUrl": "https://images.stockx.com/images/Reebok-Nano-X3-Core-Black-Footwear-White.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675105262"
+    }
+  },
+  {
+    "id": "be094c89-7250-447a-9ec2-8f36c37dc0d8",
+    "brand": "Nike",
+    "colorway": "Photon Dust/Team Red/Summit White/Muslin",
+    "gender": "women",
+    "name": "Just Do It Photon Dust Team Red (W)",
+    "releaseDate": "2023-02-23",
+    "retailPrice": 110,
+    "shoe": "Nike Air Force 1 Low '07 SE",
+    "styleId": "DV7584-001",
+    "title": "Nike Air Force 1 Low '07 SE Just Do It Photon Dust Team Red (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-07-SE-Just-Do-It-Photon-Dust-Team-Red-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264543",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-07-SE-Just-Do-It-Photon-Dust-Team-Red-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264543",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-07-SE-Just-Do-It-Photon-Dust-Team-Red-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264543"
+    }
+  },
+  {
+    "id": "3a0f3506-7925-4ce9-b0b2-4914e4ff0ddb",
+    "brand": "adidas",
+    "colorway": "Cloud White/Cloud White/Core Black",
+    "gender": "men",
+    "name": "Jeremy Scott White Opal",
+    "releaseDate": "2023-02-22",
+    "retailPrice": 180,
+    "shoe": "adidas Forum Hi Wings 4.0",
+    "styleId": "IE6861",
+    "title": "adidas Forum Hi Wings 4.0 Jeremy Scott White Opal",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/adidas-Forum-Hi-Wings-40-Jeremy-Scott-White-Opal.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660642",
+      "smallImageUrl": "https://images.stockx.com/images/adidas-Forum-Hi-Wings-40-Jeremy-Scott-White-Opal.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660642",
+      "thumbUrl": "https://images.stockx.com/images/adidas-Forum-Hi-Wings-40-Jeremy-Scott-White-Opal.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660642"
+    }
+  },
+  {
+    "id": "7ee45121-24fe-4031-8d1a-db32215da6ee",
+    "brand": "Nike",
+    "colorway": "Adobe Red/Gum",
+    "gender": "men",
+    "name": "Adobe",
+    "releaseDate": "2023-02-22",
+    "retailPrice": 130,
+    "shoe": "Nike SB Dunk Low",
+    "styleId": "DV5429-600",
+    "title": "Nike SB Dunk Low Adobe",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Dunk-Low-Adobe-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673622068",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Dunk-Low-Adobe-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673622068",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Dunk-Low-Adobe-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673622068"
+    }
+  },
+  {
+    "id": "d45f7ca1-1c6e-45b3-b0cd-a1f3991b9f9e",
+    "brand": "adidas",
+    "colorway": "Core Black/Core Black/Cloud White",
+    "gender": "men",
+    "name": "Jeremy Scott Black Opal",
+    "releaseDate": "2023-02-22",
+    "retailPrice": 180,
+    "shoe": "adidas Forum Hi Wings 4.0",
+    "styleId": "IE6862",
+    "title": "adidas Forum Hi Wings 4.0 Jeremy Scott Black Opal",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/adidas-Forum-Hi-Wings-40-Jeremy-Scott-Black-Opal.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660606",
+      "smallImageUrl": "https://images.stockx.com/images/adidas-Forum-Hi-Wings-40-Jeremy-Scott-Black-Opal.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660606",
+      "thumbUrl": "https://images.stockx.com/images/adidas-Forum-Hi-Wings-40-Jeremy-Scott-Black-Opal.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660606"
+    }
+  },
+  {
+    "id": "04874a05-be4f-440b-9132-34bf97af1551",
+    "brand": "Jordan",
+    "colorway": "Blue/Aqua/Rasengan",
+    "gender": "men",
+    "name": "Zion Williamson Naruto Rasengan",
+    "releaseDate": "2023-02-20",
+    "retailPrice": 170,
+    "shoe": "Jordan 37",
+    "styleId": "DX1690-400",
+    "title": "Jordan 37 Zion Williamson Naruto Rasengan",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-37-Zion-Williamson-Naruto-Rasengan.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675744937",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-37-Zion-Williamson-Naruto-Rasengan.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675744937",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-37-Zion-Williamson-Naruto-Rasengan.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675744937"
+    }
+  },
+  {
+    "id": "5ec69a8a-7235-4d75-a381-e5d77b33ca67",
+    "brand": "Jordan",
+    "colorway": "White/Total Orange/Black",
+    "gender": "men",
+    "name": "Safari",
+    "releaseDate": "2023-02-20",
+    "retailPrice": 110,
+    "shoe": "Jordan Luka 1",
+    "styleId": "DN1772-108",
+    "title": "Jordan Luka 1 Safari",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-Luka-1-Safari.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191294",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-Luka-1-Safari.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191294",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-Luka-1-Safari.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191294"
+    }
+  },
+  {
+    "id": "6d17c400-e37c-4031-9723-1982d4118080",
+    "brand": "Nike",
+    "colorway": "Summit White/White/Blue Whisper",
+    "gender": "men",
+    "name": "Summit White Blue Whisper",
+    "releaseDate": "2023-02-18",
+    "retailPrice": 120,
+    "shoe": "Nike Air Force 1 Low '07 LV8 EMB",
+    "styleId": "DV0787-100",
+    "title": "Nike Air Force 1 Low '07 LV8 EMB Summit White Blue Whisper",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-07-LV8-EMB-Summit-White-Blue-Whisper.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264617",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-07-LV8-EMB-Summit-White-Blue-Whisper.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264617",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-07-LV8-EMB-Summit-White-Blue-Whisper.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264617"
+    }
+  },
+  {
+    "id": "bf50ff19-baf6-41e1-a833-3aead39aa3f2",
+    "brand": "Nike",
+    "colorway": "Summit White/White/Phantom/Mica Green",
+    "gender": "men",
+    "name": "Summit White Phantom",
+    "releaseDate": "2023-02-18",
+    "retailPrice": 115,
+    "shoe": "Nike Blazer Mid '77 EMB",
+    "styleId": "DV0797-100",
+    "title": "Nike Blazer Mid '77 EMB Summit White Phantom",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Blazer-Mid-77-EMB-Summit-White-Phantom.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264611",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Blazer-Mid-77-EMB-Summit-White-Phantom.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264611",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Blazer-Mid-77-EMB-Summit-White-Phantom.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264611"
+    }
+  },
+  {
+    "id": "f4e5bf1c-a834-4994-bf1e-3610d1119962",
+    "brand": "Jordan",
+    "colorway": "Black/Varsity Red-White-Vibrant Yellow",
+    "gender": "men",
+    "name": "Playoffs (2023)",
+    "releaseDate": "2023-02-18",
+    "retailPrice": 210,
+    "shoe": "Jordan 13 Retro",
+    "styleId": "414571-062",
+    "title": "Jordan 13 Retro Playoffs (2023)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-13-Retro-Playoffs-2023.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675374214",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-13-Retro-Playoffs-2023.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675374214",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-13-Retro-Playoffs-2023.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675374214"
+    }
+  },
+  {
+    "id": "0e679a18-66e1-4038-9ea3-2cc64b6484d6",
+    "brand": "Nike",
+    "colorway": "Black/Multi Color/White/Football Grey",
+    "gender": "men",
+    "name": "Black Patent Football Grey",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 200,
+    "shoe": "Nike Air Penny 2",
+    "styleId": "DV0817-001",
+    "title": "Nike Air Penny 2 Black Patent Football Grey",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Penny-2-Black-Patent.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675738363",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Penny-2-Black-Patent.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675738363",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Penny-2-Black-Patent.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675738363"
+    }
+  },
+  {
+    "id": "18ff94cb-a952-491b-b4fe-91e0e2b2e1b4",
+    "brand": "Nike",
+    "colorway": "White/Multi-Color/Pink Glow/Speed Yellow",
+    "gender": "child",
+    "name": "All-Star (2023) (GS)",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 95,
+    "shoe": "Nike Air Force 1 Low '07",
+    "styleId": "DZ4883-100",
+    "title": "Nike Air Force 1 Low '07 All-Star (2023) (GS)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-07-All-Star-2023-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660641",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-07-All-Star-2023-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660641",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-07-All-Star-2023-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660641"
+    }
+  },
+  {
+    "id": "323c9c72-cabd-4145-99d7-850c3f9229d8",
+    "brand": "Nike",
+    "colorway": "Black/White/Multi-Color/Cobalt Bliss",
+    "gender": "toddler",
+    "name": "Cobalt Bliss (TD)",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 105,
+    "shoe": "Nike Air More Uptempo 96",
+    "styleId": "DQ6202-001",
+    "title": "Nike Air More Uptempo 96 Cobalt Bliss (TD)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-Cobalt-Bliss-TD.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736401",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-Cobalt-Bliss-TD.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736401",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-Cobalt-Bliss-TD.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736401"
+    }
+  },
+  {
+    "id": "4254d8d4-e030-4d3f-b2b8-55871e39120e",
+    "brand": "Jordan",
+    "colorway": "Varsity Maize/Game Royal/Sail/Black/Fire Red",
+    "gender": "preschool",
+    "name": "Reverse Laney (PS)",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 85,
+    "shoe": "Jordan 1 Retro High OG",
+    "styleId": "FD2597-700",
+    "title": "Jordan 1 Retro High OG Reverse Laney (PS)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Reverse-Laney-PS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660633",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Reverse-Laney-PS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660633",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Reverse-Laney-PS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660633"
+    }
+  },
+  {
+    "id": "4f0356b1-44b9-444e-8a9d-caab5afd44ed",
+    "brand": "Nike",
+    "colorway": "Black/White/Multi-Color/Cobalt Bliss",
+    "gender": "preschool",
+    "name": "Cobalt Bliss (PS)",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 110,
+    "shoe": "Nike Air More Uptempo 96",
+    "styleId": "DQ6201-001",
+    "title": "Nike Air More Uptempo 96 Cobalt Bliss (PS)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-Cobalt-Bliss-PS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736402",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-Cobalt-Bliss-PS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736402",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-Cobalt-Bliss-PS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736402"
+    }
+  },
+  {
+    "id": "53b9b9d9-1016-4783-8549-46608830f190",
+    "brand": "Nike",
+    "colorway": "White/Multi-Color/Pink Glow/Speed Yellow",
+    "gender": "toddler",
+    "name": "All-Star 2023 (TD)",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 60,
+    "shoe": "Nike Air Force 1 Low '07",
+    "styleId": "FJ3487-100",
+    "title": "Nike Air Force 1 Low '07 All-Star 2023 (TD)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-07-All-Star-2023-TD.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660605",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-07-All-Star-2023-TD.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660605",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Force-1-Low-07-All-Star-2023-TD.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674660605"
+    }
+  },
+  {
+    "id": "53c8bf2a-fc1f-4a99-9ee8-f249c13d4f61",
+    "brand": "Puma",
+    "colorway": "Safety Yellow/Elektro Green",
+    "gender": "men",
+    "name": "Rick & Morty Adventures",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 130,
+    "shoe": "Puma LaMelo Ball MB.02",
+    "styleId": "377411-02",
+    "title": "Puma LaMelo Ball MB.02 Rick & Morty Adventures",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Puma-LaMelo-Ball-MB02-Rick-and-Morty-Adventures.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675871369",
+      "smallImageUrl": "https://images.stockx.com/images/Puma-LaMelo-Ball-MB02-Rick-and-Morty-Adventures.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675871369",
+      "thumbUrl": "https://images.stockx.com/images/Puma-LaMelo-Ball-MB02-Rick-and-Morty-Adventures.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675871369"
+    }
+  },
+  {
+    "id": "5a0e9066-8b57-423a-b242-087726158df9",
+    "brand": "Nike",
+    "colorway": "Electric Algae/University Gold/Game Royal/Baltic Blue",
+    "gender": "child",
+    "name": "Kaleidoscope (GS)",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 160,
+    "shoe": "Nike Lebron 20 SE",
+    "styleId": "DV3021-300",
+    "title": "Nike Lebron 20 SE Kaleidoscope (GS)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Lebron-20-SE-Kaleidoscope-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264546",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Lebron-20-SE-Kaleidoscope-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264546",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Lebron-20-SE-Kaleidoscope-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264546"
+    }
+  },
+  {
+    "id": "660ab56a-585c-475c-b929-ac88135e10b6",
+    "brand": "Jordan",
+    "colorway": "Varsity Maize/Game Royal/Sail/Black/Fire Red",
+    "gender": "women",
+    "name": "Reverse Laney (W)",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 180,
+    "shoe": "Jordan 1 Retro High OG",
+    "styleId": "FD2596-700",
+    "title": "Jordan 1 Retro High OG Reverse Laney (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Reverse-Laney-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673374938",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Reverse-Laney-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673374938",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Reverse-Laney-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1673374938"
+    }
+  },
+  {
+    "id": "68831e30-21c5-407b-9b01-f5c25f4acbee",
+    "brand": "Nike",
+    "colorway": "White/Team Red/Summit White/Best Grey",
+    "gender": "men",
+    "name": "Bulls",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 180,
+    "shoe": "Nike Air More Uptempo 96",
+    "styleId": "FB1380-100",
+    "title": "Nike Air More Uptempo 96 Bulls",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-White-Team-Red-Summit-White-TM-Best-Grey-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1671721712",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-White-Team-Red-Summit-White-TM-Best-Grey-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1671721712",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-White-Team-Red-Summit-White-TM-Best-Grey-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1671721712"
+    }
+  },
+  {
+    "id": "7a6c39d2-8724-442c-a2c1-9f99c2ab8960",
+    "brand": "Jordan",
+    "colorway": "Game Royal/Rush Orange-Phantom-White",
+    "gender": "men",
+    "name": "Knicks",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 125,
+    "shoe": "Jordan 1 Mid",
+    "styleId": "FD1029-400",
+    "title": "Jordan 1 Mid Knicks",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Mid-Knicks.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1665649074",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Mid-Knicks.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1665649074",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Mid-Knicks.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1665649074"
+    }
+  },
+  {
+    "id": "cdb28e40-6205-4d1b-8000-d237e83b7c23",
+    "brand": "Nike",
+    "colorway": "Black/White/Multi-Color/Cobalt Bliss",
+    "gender": "child",
+    "name": "Cobalt Bliss (GS)",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 140,
+    "shoe": "Nike Air More Uptempo 96",
+    "styleId": "DQ6200-001",
+    "title": "Nike Air More Uptempo 96 Cobalt Bliss (GS)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-Cobalt-Bliss-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675737031",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-Cobalt-Bliss-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675737031",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-Cobalt-Bliss-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675737031"
+    }
+  },
+  {
+    "id": "e1dd2297-8062-4109-b928-66e4b10ff3fe",
+    "brand": "Nike",
+    "colorway": "Black/White/Multi-Color/Cobalt Bliss",
+    "gender": "men",
+    "name": "Cobalt Bliss",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 170,
+    "shoe": "Nike Air More Uptempo 96",
+    "styleId": "DV0819-001",
+    "title": "Nike Air More Uptempo 96 Cobalt Bliss",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-Cobalt-Bliss.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736403",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-Cobalt-Bliss.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736403",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-96-Cobalt-Bliss.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736403"
+    }
+  },
+  {
+    "id": "f1dab3af-a8af-4f0f-a001-85378a5d1f31",
+    "brand": "Nike",
+    "colorway": "Summit White/Rosewood/Wolf Grey/Pure Platinum/Black/Clear",
+    "gender": "women",
+    "name": "Rosewood Wolf Grey (W)",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 160,
+    "shoe": "Nike Air More Uptempo",
+    "styleId": "DV1137-100",
+    "title": "Nike Air More Uptempo Rosewood Wolf Grey (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-Rosewood-Wolf-Grey-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736410",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-Rosewood-Wolf-Grey-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736410",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-More-Uptempo-Rosewood-Wolf-Grey-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736410"
+    }
+  },
+  {
+    "id": "fa0d1089-2da6-4a8d-a84d-271c7c9be94a",
+    "brand": "Nike",
+    "colorway": "Gold/Navy-Red",
+    "gender": "men",
+    "name": "Olympics Gold Medal",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 160,
+    "shoe": "Nike KD 15",
+    "styleId": "DC1975-700/DM1054-700",
+    "title": "Nike KD 15 Olympics Gold Medal",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-KD-15-Olympics-Gold-Medal.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675018831",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-KD-15-Olympics-Gold-Medal.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675018831",
+      "thumbUrl": "https://images.stockx.com/images/Nike-KD-15-Olympics-Gold-Medal.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675018831"
+    }
+  },
+  {
+    "id": "fb9550ed-f95c-4bdb-9e45-b59ca7b540c7",
+    "brand": "Nike",
+    "colorway": "White/Rosewood-Wolf Grey-Black",
+    "gender": "men",
+    "name": "Rosewood",
+    "releaseDate": "2023-02-17",
+    "retailPrice": 180,
+    "shoe": "Nike Air Max Penny 2",
+    "styleId": "DV1163-100",
+    "title": "Nike Air Max Penny 2 Rosewood",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Max-Penny-2-White-Rosewood.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1668597648",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Max-Penny-2-White-Rosewood.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1668597648",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Max-Penny-2-White-Rosewood.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1668597648"
+    }
+  },
+  {
+    "id": "10b8321e-5b1c-4d56-b8a2-a876f178c0f0",
+    "brand": "Nike",
+    "colorway": "Oxygen Purple/Space Purple-Gridiron",
+    "gender": "men",
+    "name": "All-Star",
+    "releaseDate": "2023-02-16",
+    "retailPrice": 120,
+    "shoe": "Nike Zoom Freak 4",
+    "styleId": "DV1178-500",
+    "title": "Nike Zoom Freak 4 All-Star",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Zoom-Freak-4-All-Star.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674759308",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Zoom-Freak-4-All-Star.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674759308",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Zoom-Freak-4-All-Star.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674759308"
+    }
+  },
+  {
+    "id": "9ce47a20-bfcc-4006-85f7-6b6fa188725b",
+    "brand": "Nike",
+    "colorway": "Light Orewood Brown/Metallic Gold/Sundial/Sail/Citron Tint",
+    "gender": "men",
+    "name": "All-Star",
+    "releaseDate": "2023-02-16",
+    "retailPrice": 160,
+    "shoe": "Nike KD 15",
+    "styleId": "DV1199-100",
+    "title": "Nike KD 15 All-Star",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-KD-15-All-Star.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674759311",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-KD-15-All-Star.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674759311",
+      "thumbUrl": "https://images.stockx.com/images/Nike-KD-15-All-Star.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674759311"
+    }
+  },
+  {
+    "id": "dd6d7b73-ca40-4ace-b4ca-1421153bc00a",
+    "brand": "Nike",
+    "colorway": "Blue Lightning/Coconut Milk/Iron Grey",
+    "gender": "men",
+    "name": "All-Star",
+    "releaseDate": "2023-02-16",
+    "retailPrice": 210,
+    "shoe": "Nike Lebron 20",
+    "styleId": "DV1191-400/DV1192-400",
+    "title": "Nike Lebron 20 All-Star",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Lebron-20-All-Star.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675018834",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Lebron-20-All-Star.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675018834",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Lebron-20-All-Star.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675018834"
+    }
+  },
+  {
+    "id": "250fc515-63ef-4164-bb31-626a98b06fad",
+    "brand": "adidas",
+    "colorway": "Core Black/Carbon/Grey Three",
+    "gender": "men",
+    "name": "Xbox Series X",
+    "releaseDate": "2023-02-15",
+    "retailPrice": 120,
+    "shoe": "adidas D.O.N. Issue #4",
+    "styleId": "HR0714",
+    "title": "adidas D.O.N. Issue #4 Xbox Series X",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/adidas-DON-Issue-4-Xbox-Series-X.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264544",
+      "smallImageUrl": "https://images.stockx.com/images/adidas-DON-Issue-4-Xbox-Series-X.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264544",
+      "thumbUrl": "https://images.stockx.com/images/adidas-DON-Issue-4-Xbox-Series-X.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264544"
+    }
+  },
+  {
+    "id": "c9cf81fb-8eb1-4c42-a358-9c04c6b1210e",
+    "brand": "Jordan",
+    "colorway": "White/Black-White",
+    "gender": "men",
+    "name": "Black White (2023)",
+    "releaseDate": "2023-02-15",
+    "retailPrice": 200,
+    "shoe": "Jordan 1 Retro High 85",
+    "styleId": "BQ4422-001",
+    "title": "Jordan 1 Retro High 85 Black White (2023)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-85-Black-White-2023-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675762190",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-85-Black-White-2023-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675762190",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-85-Black-White-2023-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675762190"
+    }
+  },
+  {
+    "id": "d37f2d24-c0e8-4a24-bda0-6a40da1f7118",
+    "brand": "Jordan",
+    "colorway": "White/Black/White",
+    "gender": "toddler",
+    "name": "Black White (TD)",
+    "releaseDate": "2023-02-15",
+    "retailPrice": 75,
+    "shoe": "Baby Jordan '85",
+    "styleId": "DV3655-001",
+    "title": "Baby Jordan '85 Black White (TD)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Baby-Air-Jordan-85-Black-White-TD.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264592",
+      "smallImageUrl": "https://images.stockx.com/images/Baby-Air-Jordan-85-Black-White-TD.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264592",
+      "thumbUrl": "https://images.stockx.com/images/Baby-Air-Jordan-85-Black-White-TD.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675264592"
+    }
+  },
+  {
+    "id": "3157f028-ebcf-4e7a-8aba-9e0ed860c390",
+    "brand": "Nike",
+    "colorway": "Rattan/Limestone-Black",
+    "gender": "men",
+    "name": "Stussy Rattan Limestone",
+    "releaseDate": "2023-02-14",
+    "retailPrice": 200,
+    "shoe": "Nike Air Penny 2",
+    "styleId": "DX6934-200",
+    "title": "Nike Air Penny 2 Stussy Rattan Limestone",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Penny-2-Stussy-Fossil.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191294",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Penny-2-Stussy-Fossil.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191294",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Penny-2-Stussy-Fossil.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191294"
+    }
+  },
+  {
+    "id": "809b39f3-905d-45f7-9151-ffc1e587c155",
+    "brand": "Jordan",
+    "colorway": "Photon Dust/Pale Vanilla/Off White/Grey Fog/Flat Pewter/Sail",
+    "gender": "men",
+    "name": "Craft Photon Dust",
+    "releaseDate": "2023-02-11",
+    "retailPrice": 210,
+    "shoe": "Jordan 4 Retro SE",
+    "styleId": "DV3742-021",
+    "title": "Jordan 4 Retro SE Craft Photon Dust",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-4-Retro-SE-Craft-Photon-Dust-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675766632",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-4-Retro-SE-Craft-Photon-Dust-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675766632",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-4-Retro-SE-Craft-Photon-Dust-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675766632"
+    }
+  },
+  {
+    "id": "95115769-0dd1-42ac-8b73-01bdd271efaf",
+    "brand": "Jordan",
+    "colorway": "Photon Dust/Pale Vanilla/Off White/Grey Fog/Flat Pewter/Sail",
+    "gender": "child",
+    "name": "Craft Photon Dust (GS)",
+    "releaseDate": "2023-02-11",
+    "retailPrice": 150,
+    "shoe": "Jordan 4 Retro SE",
+    "styleId": "DV2262-021",
+    "title": "Jordan 4 Retro SE Craft Photon Dust (GS)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-4-Retro-SE-Craft-Photon-Dust-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674055799",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-4-Retro-SE-Craft-Photon-Dust-GS.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674055799",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-4-Retro-SE-Craft-Photon-Dust-GS.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674055799"
+    }
+  },
+  {
+    "id": "06b7f4c3-df82-44dd-bfa4-fbab4fdf9078",
+    "brand": "Reebok",
+    "colorway": "Black/Azure/Footwear White",
+    "gender": "men",
+    "name": "Black Azure",
+    "releaseDate": "2023-02-10",
+    "retailPrice": 180,
+    "shoe": "Reebok Shaq Attaq",
+    "styleId": "HR0499",
+    "title": "Reebok Shaq Attaq Black Azure",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Reebok-Shaq-Attaq-Black-Azure.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736405",
+      "smallImageUrl": "https://images.stockx.com/images/Reebok-Shaq-Attaq-Black-Azure.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736405",
+      "thumbUrl": "https://images.stockx.com/images/Reebok-Shaq-Attaq-Black-Azure.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736405"
+    }
+  },
+  {
+    "id": "161dc58b-f275-4306-bd4a-b970c41b8ada",
+    "brand": "Nike",
+    "colorway": "Multi-Color/Multi-Color",
+    "gender": "men",
+    "name": "I Promise",
+    "releaseDate": "2023-02-10",
+    "retailPrice": 160,
+    "shoe": "Nike Zoom LeBron NXXT Gen",
+    "styleId": "DR8784-900",
+    "title": "Nike Zoom LeBron NXXT Gen I Promise",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Zoom-LeBron-NXXT-Gen-I-Promise.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191304",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Zoom-LeBron-NXXT-Gen-I-Promise.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191304",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Zoom-LeBron-NXXT-Gen-I-Promise.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191304"
+    }
+  },
+  {
+    "id": "54469fa4-4d35-420d-9824-46642b7c6752",
+    "brand": "Saucony",
+    "colorway": "White/Tan-Gum",
+    "gender": "men",
+    "name": "Colour Plus Companie",
+    "releaseDate": "2023-02-10",
+    "retailPrice": 100,
+    "shoe": "Saucony Jazz 81",
+    "styleId": "S70766-1",
+    "title": "Saucony Jazz 81 Colour Plus Companie",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Saucony-Jazz-81-Colour-Plus-Companie.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675748362",
+      "smallImageUrl": "https://images.stockx.com/images/Saucony-Jazz-81-Colour-Plus-Companie.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675748362",
+      "thumbUrl": "https://images.stockx.com/images/Saucony-Jazz-81-Colour-Plus-Companie.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675748362"
+    }
+  },
+  {
+    "id": "a35a7b48-184a-4d2a-a213-595fdc53b853",
+    "brand": "Nike",
+    "colorway": "Challenge Red/White-Black",
+    "gender": "men",
+    "name": "All-Star (2023)",
+    "releaseDate": "2023-02-10",
+    "retailPrice": 130,
+    "shoe": "Nike KD 3",
+    "styleId": "DV0835-600",
+    "title": "Nike KD 3 All-Star (2023)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-KD-3-All-Star-2023-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675794224",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-KD-3-All-Star-2023-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675794224",
+      "thumbUrl": "https://images.stockx.com/images/Nike-KD-3-All-Star-2023-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675794224"
+    }
+  },
+  {
+    "id": "a51fbbbb-00de-4990-99f5-b215e65de839",
+    "brand": "Nike",
+    "colorway": "Wheat Grass/Gold Suede-Cacao Wow",
+    "gender": "men",
+    "name": "Wheat Grass Cacao Wow",
+    "releaseDate": "2023-02-10",
+    "retailPrice": 160,
+    "shoe": "Nike Zoom Vomero 5",
+    "styleId": "FB9149-700",
+    "title": "Nike Zoom Vomero 5 Wheat Grass Cacao Wow",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Zoom-Vomero-5-Wheat-Grass.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674138963",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Zoom-Vomero-5-Wheat-Grass.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674138963",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Zoom-Vomero-5-Wheat-Grass.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1674138963"
+    }
+  },
+  {
+    "id": "e67df2f3-4e50-48fc-b953-710195668577",
+    "brand": "Nike",
+    "colorway": "Fossil/Black-Fossil",
+    "gender": "men",
+    "name": "Stussy Fossil",
+    "releaseDate": "2023-02-10",
+    "retailPrice": 200,
+    "shoe": "Nike Air Penny 2",
+    "styleId": "DQ5674-200",
+    "title": "Nike Air Penny 2 Stussy Fossil",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Air-Penny-2-Stussy-White.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675877817",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Air-Penny-2-Stussy-White.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675877817",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Air-Penny-2-Stussy-White.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675877817"
+    }
+  },
+  {
+    "id": "f41902ff-07fa-4d52-ae7c-62cab7c233bf",
+    "brand": "New Balance",
+    "colorway": "Black/White/Red",
+    "gender": "men",
+    "name": "Alpha Predator",
+    "releaseDate": "2023-02-10",
+    "retailPrice": 160,
+    "shoe": "New Balance KAWHI 3",
+    "styleId": "BBKLTB3",
+    "title": "New Balance KAWHI 3 Alpha Predator",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/New-Balance-KAWHI-3-Alpha-Predator.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736402",
+      "smallImageUrl": "https://images.stockx.com/images/New-Balance-KAWHI-3-Alpha-Predator.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736402",
+      "thumbUrl": "https://images.stockx.com/images/New-Balance-KAWHI-3-Alpha-Predator.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675736402"
+    }
+  },
+  {
+    "id": "2a3e6c34-0231-4cf5-903a-07abca96fea9",
+    "brand": "Nike",
+    "colorway": "White/Black-Light Photo Blue-Sail",
+    "gender": "men",
+    "name": "White Black Light Photo Blue",
+    "releaseDate": "2023-02-09",
+    "retailPrice": 115,
+    "shoe": "Nike Cortez",
+    "styleId": "DM4044-100",
+    "title": "Nike Cortez White Black Light Photo Blue",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Nike-Cortez-White-Black-Light-Photo-Blue.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191295",
+      "smallImageUrl": "https://images.stockx.com/images/Nike-Cortez-White-Black-Light-Photo-Blue.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191295",
+      "thumbUrl": "https://images.stockx.com/images/Nike-Cortez-White-Black-Light-Photo-Blue.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675191295"
+    }
+  },
+  {
+    "id": "475e9c5e-d13d-44e8-9a95-06693a8d245b",
+    "brand": "adidas",
+    "colorway": "Core Black/Grey Six/Core Black",
+    "gender": "men",
+    "name": "Mr. Bailey Core Black",
+    "releaseDate": "2023-02-09",
+    "retailPrice": 160,
+    "shoe": "adidas Ozmorphis",
+    "styleId": "GX9637",
+    "title": "adidas Ozmorphis Mr. Bailey Core Black",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/adidas-Ozmorphis-Mr-Bailey-Core-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675373308",
+      "smallImageUrl": "https://images.stockx.com/images/adidas-Ozmorphis-Mr-Bailey-Core-Black.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675373308",
+      "thumbUrl": "https://images.stockx.com/images/adidas-Ozmorphis-Mr-Bailey-Core-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675373308"
+    }
+  },
+  {
+    "id": "5ae8f802-2ed3-4f07-bf2b-63878db894a2",
+    "brand": "Jordan",
+    "colorway": "Summit White/Phantom/Gym Red",
+    "gender": "women",
+    "name": "Valentine's Day (2023) (W)",
+    "releaseDate": "2023-02-09",
+    "retailPrice": 150,
+    "shoe": "Jordan 1 High Zoom Air CMFT 2",
+    "styleId": "DV1304-106",
+    "title": "Jordan 1 High Zoom Air CMFT 2 Valentine's Day (2023) (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-1-High-Zoom-Air-CMFT-2-Valentines-Day-2023-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675018827",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-1-High-Zoom-Air-CMFT-2-Valentines-Day-2023-W.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675018827",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-1-High-Zoom-Air-CMFT-2-Valentines-Day-2023-W.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675018827"
+    }
+  },
+  {
+    "id": "677efdd6-b6c4-47f5-99aa-ed7ecb0c7fc7",
+    "brand": "Jordan",
+    "colorway": "White/Seafoam/Dark Ash/Neutral Grey",
+    "gender": "women",
+    "name": "Seafoam (W)",
+    "releaseDate": "2023-02-09",
+    "retailPrice": 210,
+    "shoe": "Jordan 4 Retro",
+    "styleId": "AQ9129-103",
+    "title": "Jordan 4 Retro Seafoam (W)",
+    "year": 2023,
+    "media": {
+      "imageUrl": "https://images.stockx.com/images/Air-Jordan-4-Retro-Oil-Green-W-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675516633",
+      "smallImageUrl": "https://images.stockx.com/images/Air-Jordan-4-Retro-Oil-Green-W-Product.jpg?fit=fill&bg=FFFFFF&w=300&h=214&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675516633",
+      "thumbUrl": "https://images.stockx.com/images/Air-Jordan-4-Retro-Oil-Green-W-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1675516633"
+    }
+  }
+]
