@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import toast from 'react-hot-toast'
 import { Link } from 'react-router-dom'
+import { GrCircleAlert } from 'react-icons/gr'
+import { Input } from '@material-tailwind/react'
+import { BiShow, BiHide } from 'react-icons/bi'
 
 const Login = () => {
 
@@ -9,24 +12,24 @@ const Login = () => {
     toast.error("This feature isn't ready yet...")
   }
 
+  const [viewPassword, setViewPassword] = useState(false)
+
   return (
     <section className="flex flex-col md:flex-row h-screen items-center">
       <div className="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/3 h-screen px-6 lg:px-16 xl:px-12
 flex items-center justify-center">
         <div className="w-full h-[calc(100vh-124px)] max-w-sm">
-          <h1 className="text-xl md:text-2xl font-bold leading-tight mt-12">Log in to your account</h1>
+          <h1 className="text-xl md:text-3xl font-bold leading-tight mt-12 text-center">Log in to your account</h1>
           <form className="mt-6" action="#" method="POST">
             <div>
-              <label className="block text-zinc-600">Email Address</label>
-              <input type="email" placeholder="Enter Email Address" className="w-full px-4 py-3 bg-zinc-100 mt-2 border-0 focus:border-blue-500 focus:bg-white focus:outline-none" autoFocus autoComplete='true' required />
+              <Input variant="standard" label="Email" type="email" className="border-r-0 border-t-0 border-l-0 outline-none focus:ring-0" autoFocus autoComplete='true' required />
+            </div>
+            <div className="mt-4 relative h-full w-full">
+              <Input variant="standard" label="Password" type={viewPassword ? 'text' : 'password'} minLength={6} className="border-r-0 border-t-0 border-l-0 outline-none focus:ring-0 pr-10" required />
+              {viewPassword ? <BiHide onClick={() => setViewPassword(!viewPassword)} className='absolute right-0 top-0 mt-4 mr-4 cursor-pointer' /> : <BiShow onClick={() => setViewPassword(!viewPassword)} className='absolute right-0 top-0 mt-4 mr-4 cursor-pointer' />}
             </div>
             <div className="mt-4">
-              <label className="block text-zinc-600">Password</label>
-              <input type="password" placeholder="Enter Password" minLength={6} className="w-full px-4 py-3 bg-zinc-100 mt-2 border-0 focus:border-blue-500
-      focus:bg-white focus:outline-none" required />
-            </div>
-            <div className="mt-4">
-              <Link to="#" className="text-sm font-semibold text-zinc-600 hover:text-black focus:text-black transition-colors">Forgot Password?</Link>
+              <Link to="#" className="text-sm font-semibold text-black hover:text-black focus:text-black transition-colors flex items-center gap-1"><GrCircleAlert></GrCircleAlert>Forgot Password?</Link>
             </div>
             <button type="submit" onClick={(e) => submitHandler(e)} className="w-full block bg-black hover:bg-zinc-800 focus:bg-zinc-800 text-white font-semibold
     px-4 py-3 mt-6 transition-colors">Log In</button>
@@ -41,7 +44,7 @@ flex items-center justify-center">
                 Google</span>
             </div>
           </button>
-          <p className="mt-4 text-sm font-semibold text-zinc-600">Need an account? <Link to="/register" className="text-blue-500 hover:text-blue-700 font-semibold">Create an
+          <p className="mt-4 text-sm font-semibold text-zinc-600 text-center">Need an account? <Link to="/register" className="text-blue-500 hover:text-blue-700 font-semibold">Create an
             account</Link></p>
         </div>
       </div>
