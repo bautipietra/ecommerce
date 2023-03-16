@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.7",
+    "@material-tailwind/react": "^1.4.2",
     "@react-three/drei": "^9.54.0",
     "@types/react-query": "^1.2.9",
+    "moment": "^2.29.4",
+    "rc-slider": "^10.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.0",
