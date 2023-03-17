@@ -6,6 +6,7 @@ import products from './products.json'
 import { Link } from 'react-router-dom';
 import FiveStars from './FiveStars';
 import FourStars from './FourStars';
+import Loader from '../../components/Loader';
 
 const Sneakers = () => {
 
@@ -25,6 +26,7 @@ const Sneakers = () => {
     setPrice([50, 400])
     setOrder(0)
     setSearch('')
+    setPage(1)
   }
 
   useEffect(() => {
@@ -45,8 +47,31 @@ const Sneakers = () => {
         aux = aux.sort((a, b) => b.rating - a.rating)
       }
     }
+    setPage(1)
     setProductsFiltered(aux)
   }, [gender, price, order, search])
+
+  const [page, setPage] = useState(1)
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    setImagesLoad(false)
+  }, [page])
+
+  const [modal, setModal] = useState<boolean | string>(false)
+
+  const [imageDetail, setImageDetail] = useState(false)
+
+  useEffect(() => {
+    if (!modal) {
+      setImageDetail(false)
+      document.body.style.overflow = 'unset';
+    }
+    else
+      document.body.style.overflow = 'hidden';
+  }, [modal])
+
+  const [imagesLoad, setImagesLoad] = useState(false)
 
   return (
     <div className='w-full max-w-7xl m-auto px-4 my-12 grid lg:grid-cols-12 min-h-[calc(100vh-100px)] divide-x gap-8'>
@@ -124,17 +149,20 @@ const Sneakers = () => {
       </div>
 
       {/* Products */}
-      <div className='h-full lg:col-span-8 xl:col-span-9 w-full lg:pl-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3'>
-        {productsFiltered?.map((p) => (
-          <div key={p.id} className="group relative cursor-pointer p-2 border-solid border-[1px] border-black/5 rounded-lg">
+      <div className='h-full lg:col-span-8 xl:col-span-9 w-full lg:pl-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3 relative'>
+        {!imagesLoad && <Loader></Loader>}
+        {productsFiltered?.slice(12 * page - 12, 12 * page).map((p, i) => (
+          <div key={p.id} onClick={() => setModal(p)} className={`group relative cursor-pointer p-2 border-solid border-[1px] border-black/5 rounded-lg h-fit ${imagesLoad ? 'block' : 'hidden'}`}>
             <div className="w-full bg-black/5 px-2 rounded-lg overflow-hidden">
-              <img src={p.media.smallImageUrl} alt={p.name} className="h-full w-full object-cover object-center mix-blend-multiply group-hover:scale-105 transition-transform" />
+              <img src={p.media.thumbUrl} alt={p.name} className="h-full w-full object-cover object-center mix-blend-multiply group-hover:scale-105 transition-transform" onLoad={() => {
+                if (i == 11) setImagesLoad(true)
+              }} />
             </div>
             <div className="pt-4 grid justify-between gap-4">
               <div>
-                <h3 className="text-lg text-black font-semibold">
+                <h2 className="text-lg text-black font-semibold">
                   {p.shoe}
-                </h3>
+                </h2>
               </div>
               <span className='flex gap-2 items-center'>
                 {
@@ -149,8 +177,8 @@ const Sneakers = () => {
                 </span>
               </span>
               <div className='flex gap-4 items-center'>
-                <p className="text-base font-normal text-gray-600 line-through">${p.retailPrice + 10.01}</p>
                 <p className="text-lg font-medium text-black">${p.retailPrice}</p>
+                <p className="text-base font-normal text-gray-600 line-through">${p.retailPrice + 10.01}</p>
               </div>
             </div>
           </div>
@@ -158,40 +186,68 @@ const Sneakers = () => {
 
         {/* Pagination */}
 
-        <nav className='m-auto md:col-span-2 xl:col-span-3 mt-8 '>
-          <ul className="list-style-none flex items-center">
+        <nav className={`m-auto md:col-span-2 xl:col-span-3 mt-8 ${imagesLoad ? 'block' : 'hidden'}`}>
+          <ul className="list-style-none flex items-center gap-4">
             <li>
-              <a className="pointer-events-none relative block rounded bg-transparent py-1.5 px-3 text-sm text-neutral-500 transition-all duration-300 dark:text-neutral-400">
+              <button className={`relative block rounded bg-gray-200 py-1.5 px-3 text-sm ${page < 2 && 'cursor-not-allowed'}`} onClick={() => page > 1 && setPage(page - 1)}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-left" viewBox="0 0 16 16">
                   <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
                 </svg>
-              </a>
+              </button>
             </li>
             <li>
-              <a className="relative block rounded bg-transparent py-1.5 px-3 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100  dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white" href="#!">1</a>
-            </li>
-            <li aria-current="page">
-              <a className="relative block rounded bg-neutral-800 py-1.5 px-3 text-sm font-medium text-neutral-50 transition-all duration-300 dark:bg-neutral-900" href="#!">2
-                <span className="absolute -m-px h-px w-px overflow-hidden whitespace-nowrap border-0 p-0 [clip:rect(0,0,0,0)]">(current)</span>
-              </a>
-            </li>
-            <li>
-              <a className="relative block rounded bg-transparent py-1.5 px-3 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white" href="#!">3</a>
-            </li>
-            <li>
-              <a className="relative block rounded bg-transparent py-1.5 px-3 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white" href="#!">
+              <button className={`relative block rounded bg-gray-200 py-1.5 px-3 text-sm ${productsFiltered.length < 12 * page && 'cursor-not-allowed'}`} onClick={() => productsFiltered.length > 12 * page && setPage(page + 1)}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-right" viewBox="0 0 16 16">
                   <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
                 </svg>
-              </a>
+              </button>
             </li>
           </ul>
         </nav>
 
 
 
-      </div>
-    </div>
+      </div >
+
+      {/* Modal */}
+      {modal && <div className='fixed bg-black/30 left-0 top-0 h-screen w-screen flex items-center justify-center p-4'>
+        <div className='bg-white p-8 grid w-full max-w-2xl relative rounded-lg'>
+          <svg onClick={() => setModal(false)} xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="#000" className="z-10 bi bi-x absolute right-4 top-4 cursor-pointer" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+          <div className='w-full aspect-video relative'>
+            <img src={modal.media.imageUrl} alt={modal.shoe} className={`w-full object-cover ${imageDetail ? 'block' : 'hidden'}`} onLoad={() => setImageDetail(true)} />
+            {!imageDetail && <Loader></Loader>
+            }
+          </div>
+          <div className='grid gap-2'>
+            <h1 className='font-bold text-4xl'>{modal.shoe}</h1>
+            <div className='flex gap-4 items-center order'>
+              <p className="text-2xl font-medium text-black">${modal.retailPrice}</p>
+              <p className="text-xl font-normal text-gray-600 line-through">${modal.retailPrice + 10.01}</p>
+            </div>
+            <span className='flex gap-2 items-center'>
+              {
+                modal.rating == 4 ? (
+                  <FourStars></FourStars>
+                ) : (
+                  <FiveStars></FiveStars>
+                )
+              }
+              <span className='text-gray-600 flex items-center text-sm'>
+                ({(modal.reviews) + ' Reviews'})
+              </span>
+            </span>
+            <button className="flex mt-4 items-center justify-center gap-2 w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform text-center focus:outline-none bg-black hover:bg-gray-900 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" className="bi bi-cart-fill" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+              </svg>
+              Add to cart</button>
+          </div>
+        </div>
+      </div>}
+
+    </div >
   )
 }
 
