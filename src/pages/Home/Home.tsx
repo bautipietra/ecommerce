@@ -1,11 +1,19 @@
-import React, { useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Sneaker from '../../components/Sneaker'
+import Review from './Review'
 
 export default function Home() {
-  const ref = useRef()
+  const [reviewModal, setReviewModal] = useState(false)
+  useEffect(() => {
+    if (!reviewModal) document.body.style.overflow = 'unset'
+    else document.body.style.overflow = 'hidden'
+  }, [reviewModal])
   return (
     <section>
+      {
+        reviewModal && <Review setReviewModal={setReviewModal}></Review>
+      }
       <div className="bg-white min-h-[calc(100vh-100px)]">
         <section className="bg-white bg-opacity-30 py-10 sm:py-16 lg:py-16">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -108,9 +116,9 @@ export default function Home() {
             <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
               <h2 className="text-4xl font-bold">Reviews</h2>
               <p className="dark:text-gray-400">The opinion of our clients is very important to us, we take it into account when improving our services.</p>
-              <Link to={'/reviews'} className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+              <button onClick={() => setReviewModal(true)} className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                 Leave your review
-              </Link>
+              </button>
             </div>
             <div className="p-6 xl:col-span-3">
               <div className="grid gap-4 md:grid-cols-2">
