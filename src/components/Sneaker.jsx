@@ -21,4 +21,4 @@ export default function Sneaker(props) {
   )
 }
 
-useGLTF.preload('/sneaker.gltf')
+useGLTF.preload('/shoe.glb')
