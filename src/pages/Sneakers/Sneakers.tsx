@@ -155,7 +155,7 @@ const Sneakers = () => {
           <div key={p.id} onClick={() => setModal(p)} className={`group relative cursor-pointer p-2 border-solid border-[1px] border-black/5 rounded-lg h-fit ${imagesLoad ? 'block' : 'hidden'}`}>
             <div className="w-full bg-black/5 px-2 rounded-lg overflow-hidden">
               <img src={p.media.thumbUrl} alt={p.name} className="h-full w-full object-cover object-center mix-blend-multiply group-hover:scale-105 transition-transform" onLoad={() => {
-                if (i == 11) setImagesLoad(true)
+                if (i == 11 || p.id == productsFiltered[productsFiltered.length - 1].id) setImagesLoad(true)
               }} />
             </div>
             <div className="pt-4 grid justify-between gap-4">
