@@ -132,7 +132,7 @@ const Sneakers = () => {
             <div>
               <label htmlFor="underline_select" className="sr-only">Underline select</label>
               <select id="underline_select" value={order} onChange={(e) => setOrder(Number(e.target.value))} className="block py-2.5 px-0 w-full text-sm text-blue-gray-500 bg-transparent border-0 border-b-[1px] border-blue-gray-200 appearance-none focus:outline-none focus:ring-0 peer">
-                <option value="0" selected defaultChecked>Order by...</option>
+                <option value="0" defaultChecked>Order by...</option>
                 <option value="1">Price low to high</option>
                 <option value="2">Price high to low</option>
                 <option value="3">Customer rating</option>
@@ -155,9 +155,9 @@ const Sneakers = () => {
         <div className='grid gap-2'>
           <h2 className='text-lg text-center'>Gender</h2>
           <div className='flex gap-2 justify-between'>
-            <Radio onClick={() => setGender('both')} id="both" name="type" className='text-gray-200 bg-gray-200' label="Both" color={'gray'} checked={gender == 'both' ? true : false} />
-            <Radio onClick={() => setGender('men')} id="men" name="type" className='text-gray-200 bg-gray-200' label="Men" color={'gray'} checked={gender == 'men' ? true : false} />
-            <Radio onClick={() => setGender('women')} id="women" name="type" className='text-gray-200 bg-gray-200' label="Women" color={'gray'} checked={gender == 'women' ? true : false} />
+            <Radio onChange={() => setGender('both')} id="both" name="type" className='text-gray-200 bg-gray-200' label="Both" color={'gray'} checked={gender == 'both' ? true : false} />
+            <Radio onChange={() => setGender('men')} id="men" name="type" className='text-gray-200 bg-gray-200' label="Men" color={'gray'} checked={gender == 'men' ? true : false} />
+            <Radio onChange={() => setGender('women')} id="women" name="type" className='text-gray-200 bg-gray-200' label="Women" color={'gray'} checked={gender == 'women' ? true : false} />
           </div>
         </div>
 
