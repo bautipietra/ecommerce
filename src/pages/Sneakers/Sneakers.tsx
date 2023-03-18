@@ -10,15 +10,36 @@ import Loader from '../../components/Loader';
 
 const Sneakers = () => {
 
-  const [productsFiltered, setProductsFiltered] = useState([])
+  type Product = {
+    id: string;
+    brand: string;
+    colorway: string;
+    gender: string;
+    releaseDate: string;
+    retailPrice: number;
+    shoe: string;
+    styleId: string;
+    title: string;
+    year: number;
+    media: {
+      imageUrl: string;
+      smallImageUrl: string;
+      thumbUrl: string;
+    };
+    rating: number;
+    reviews: number;
+  };
+
+  const [productsFiltered, setProductsFiltered] = useState<Array<Product>>([])
 
   const [order, setOrder] = useState(0)
   const [gender, setGender] = useState('both')
   const [search, setSearch] = useState('')
 
-  const [price, setPrice] = useState([50, 400])
-  const priceHandler = (e: Array<number>) => {
-    setPrice(e)
+  const [price, setPrice] = useState<Array<number>>([50, 400])
+  const priceHandler = (e: Array<number> | number) => {
+    if (Array.isArray(e)) setPrice(e)
+    else console.error('Error: e is not an array')
   }
 
   const resetHandler = () => {
@@ -58,7 +79,7 @@ const Sneakers = () => {
     setImagesLoad(false)
   }, [page])
 
-  const [modal, setModal] = useState<boolean | string>(false)
+  const [modal, setModal] = useState<Product | false>(false)
 
   const [imageDetail, setImageDetail] = useState(false)
 
@@ -154,7 +175,7 @@ const Sneakers = () => {
         {productsFiltered?.slice(12 * page - 12, 12 * page).map((p, i) => (
           <div key={p.id} onClick={() => setModal(p)} className={`group relative cursor-pointer p-2 border-solid border-[1px] border-black/5 rounded-lg h-fit ${imagesLoad ? 'block' : 'hidden'}`}>
             <div className="w-full bg-black/5 px-2 rounded-lg overflow-hidden">
-              <img src={p.media.thumbUrl} alt={p.name} className="h-full w-full object-cover object-center mix-blend-multiply group-hover:scale-105 transition-transform" onLoad={() => {
+              <img src={p.media.thumbUrl} alt={p.shoe} className="h-full w-full object-cover object-center mix-blend-multiply group-hover:scale-105 transition-transform" onLoad={() => {
                 if (i == 11 || p.id == productsFiltered[productsFiltered.length - 1].id) setImagesLoad(true)
               }} />
             </div>
