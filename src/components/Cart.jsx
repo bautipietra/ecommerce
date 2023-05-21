@@ -1,8 +1,9 @@
-import { Fragment } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { AiOutlineClose } from 'react-icons/ai'
 import products from '../pages/Sneakers/products.json'
 import toast from 'react-hot-toast'
+import { Input } from '@material-tailwind/react'
 
 export default function Example({
   cart,
@@ -14,10 +15,39 @@ export default function Example({
     productsId.includes(product.id)
   )
 
-  const totalPrice = productsFiltered.reduce(
-    (acc, product) => acc + product.retailPrice,
-    0
+  const [totalPrice, setTotalPrice] = useState(
+    productsFiltered.reduce(
+      (acc, product) => acc + product.retailPrice,
+      0
+    )
   )
+
+  const coupons = ['SUMMER2023']
+  const [coupon, setCoupon] = useState('')
+  const [isCouponValid, setIsCouponValid] = useState(false)
+
+  const validateCoupon = () => {
+    if (coupons.includes(coupon)) {
+      setIsCouponValid(true)
+      toast.success('Coupon applied')
+    } else {
+      setIsCouponValid(false)
+      toast.error('Invalid coupon')
+    }
+  }
+
+  useEffect(() => {
+    setTotalPrice(
+      productsFiltered.reduce(
+        (acc, product) => acc + product.retailPrice,
+        0
+      )
+    )
+    if (isCouponValid) {
+      setTotalPrice(totalPrice / 2)
+    }
+  }, [isCouponValid])
+
   return (
     <Transition.Root show={cart} as={Fragment} className='z-30'>
       <Dialog as='div' className='relative z-10' onClose={setCart}>
@@ -135,6 +165,20 @@ export default function Example({
                           </ul>
                         </div>
                       </div>
+                    </div>
+
+                    <div className='border-t border-gray-200 px-4 py-6 sm:px-6 grid grid-cols-6 gap-2'>
+                      <div className='col-span-4'>
+                        <Input
+                          label='Coupon'
+                          onChange={(e) => setCoupon(e.target.value)}
+                        />
+                      </div>
+                      <button
+                        onClick={validateCoupon}
+                        className='flex items-center justify-center rounded-md border border-transparent bg-black px-6 text-base font-medium text-white shadow-sm hover:bg-gray-900 col-span-2'>
+                        Apply
+                      </button>
                     </div>
 
                     <div className='border-t border-gray-200 px-4 py-6 sm:px-6'>
