@@ -450,7 +450,7 @@ const Sneakers = () => {
                     )
                     toast.success('Removed from cart')
                   } else {
-                    setProductsId((oldProducts) => [
+                    setProductsId((oldProducts: Number[]) => [
                       ...oldProducts,
                       modal.id
                     ])
