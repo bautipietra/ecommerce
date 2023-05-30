@@ -11,6 +11,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@material-tailwind/react": "^1.4.2",
+    "@paypal/react-paypal-js": "^7.8.3",
     "@react-three/drei": "^9.54.0",
     "@types/react-query": "^1.2.9",
     "moment": "^2.29.4",

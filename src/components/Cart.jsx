@@ -4,6 +4,10 @@ import { AiOutlineClose } from 'react-icons/ai'
 import products from '../pages/Sneakers/products.json'
 import toast from 'react-hot-toast'
 import { Input } from '@material-tailwind/react'
+import {
+  PayPalScriptProvider,
+  PayPalButtons
+} from '@paypal/react-paypal-js'
 
 export default function Example({
   cart,
@@ -46,7 +50,7 @@ export default function Example({
     if (isCouponValid) {
       setTotalPrice(totalPrice / 2)
     }
-  }, [isCouponValid])
+  }, [isCouponValid, productsId])
 
   return (
     <Transition.Root show={cart} as={Fragment} className='z-30'>
@@ -190,11 +194,41 @@ export default function Example({
                         Shipping and taxes calculated at checkout.
                       </p>
                       <div className='mt-6'>
-                        <a
-                          href='#'
-                          className='flex items-center justify-center rounded-md border border-transparent bg-black px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-gray-900'>
-                          Checkout
-                        </a>
+                        {/* Checkout */}
+                        <PayPalScriptProvider
+                          options={{ 'client-id': 'test' }}>
+                          <PayPalButtons
+                            style={{
+                              layout: 'horizontal',
+                              color: 'black',
+                              tagline: false,
+                              label: 'pay'
+                            }}
+                            disabled={totalPrice === 0}
+                            createOrder={(data, actions) => {
+                              return actions.order.create({
+                                purchase_units: [
+                                  {
+                                    amount: {
+                                      value: totalPrice
+                                    }
+                                  }
+                                ]
+                              })
+                            }}
+                            onApprove={() => {
+                              setCart(false)
+                              setProductsId([])
+                              toast.success('Payment successful')
+                            }}
+                            onCancel={() =>
+                              toast.error('Payment cancelled')
+                            }
+                            onError={() =>
+                              toast.error('Payment error')
+                            }
+                          />
+                        </PayPalScriptProvider>
                       </div>
                       <div className='mt-6 flex justify-center text-center text-sm text-gray-500'>
                         <p>
