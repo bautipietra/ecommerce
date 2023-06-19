@@ -22,7 +22,7 @@
     "react-icons": "^4.7.1",
     "react-query": "^3.39.3",
     "react-redux": "^8.0.5",
-    "react-router-dom": "^6.8.1",
+    "react-router-dom": "^6.13.0",
     "react-three-fiber": "^6.0.13",
     "redux": "^4.2.1",
     "sweetalert2": "^11.7.1",
