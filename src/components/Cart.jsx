@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from 'react'
+import { Fragment, useEffect, useState, useContext } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { AiOutlineClose } from 'react-icons/ai'
 import products from '../pages/Sneakers/products.json'
@@ -8,6 +8,7 @@ import {
   PayPalScriptProvider,
   PayPalButtons
 } from '@paypal/react-paypal-js'
+import { AuthContext } from '../context/AuthContext'
 
 export default function Example({
   cart,
@@ -15,6 +16,8 @@ export default function Example({
   productsId,
   setProductsId
 }) {
+  const { isLoggedIn } = useContext(AuthContext)
+
   const productsFiltered = products.filter((product) =>
     productsId.includes(product.id)
   )
@@ -180,7 +183,7 @@ export default function Example({
                       </div>
                       <button
                         onClick={validateCoupon}
-                        className='flex items-center justify-center rounded-md border border-transparent bg-black px-6 text-base font-medium text-white shadow-sm hover:bg-gray-900 col-span-2'>
+                        className='flex items-center justify-center rounded-md border border-transparent bg-black text-base font-medium text-white shadow-sm hover:bg-gray-900 col-span-2'>
                         Apply
                       </button>
                     </div>
@@ -204,7 +207,7 @@ export default function Example({
                               tagline: false,
                               label: 'pay'
                             }}
-                            disabled={totalPrice === 0}
+                            disabled={totalPrice === 0 || !isLoggedIn}
                             createOrder={(data, actions) => {
                               return actions.order.create({
                                 purchase_units: [
@@ -229,6 +232,11 @@ export default function Example({
                             }
                           />
                         </PayPalScriptProvider>
+                        {!isLoggedIn && (
+                          <span className='text-red-500'>
+                            You must log in to checkout
+                          </span>
+                        )}
                       </div>
                       <div className='mt-6 flex justify-center text-center text-sm text-gray-500'>
                         <p>
