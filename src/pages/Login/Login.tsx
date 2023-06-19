@@ -1,51 +1,128 @@
-import React, { useState } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import toast from 'react-hot-toast'
-import { Link } from 'react-router-dom'
+import { Link, Navigate, redirect } from 'react-router-dom'
 import { GrCircleAlert } from 'react-icons/gr'
 import { Input } from '@material-tailwind/react'
 import { BiShow, BiHide } from 'react-icons/bi'
+import { AuthContext } from '../../context/AuthContext'
 
 const Login = () => {
+  const { handleLogin, isLoggedIn } = useContext(AuthContext)
+  const [formData, setFormData] = useState({
+    email: '',
+    password: ''
+  })
 
-  const submitHandler = (e: React.MouseEvent<HTMLButtonElement>) => {
+  useEffect(() => {
+    if (isLoggedIn) {
+      toast.error('You are already logged in')
+    }
+  }, [])
+
+  const inputHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value })
+  }
+
+  const submitHandler = async (
+    e: React.MouseEvent<HTMLButtonElement>
+  ) => {
     e.preventDefault()
-    toast.error("This feature isn't ready yet...")
+    const { email, password } = formData
+    const res = await fetch('http://localhost:3000/user/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        email,
+        password
+      })
+    })
+    const data = await res.json()
+    if (res.ok) {
+      console.log('acepte login')
+      toast.success('Logged in successfully')
+      handleLogin(data.token)
+    } else {
+      toast.error('Error logging in')
+    }
   }
 
   const [viewPassword, setViewPassword] = useState(false)
 
   return (
-    <section className="flex flex-col md:flex-row h-screen items-center">
-      <div className="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/3 h-screen px-6 lg:px-16 xl:px-12
-flex items-center justify-center">
-        <div className="w-full h-[calc(100vh-124px)] max-w-sm">
-          <h1 className="text-xl md:text-3xl font-bold leading-tight mt-12 text-center">Log in to your account</h1>
-          <form className="mt-6" action="#" method="POST">
+    <section className='flex flex-col md:flex-row h-screen items-center'>
+      {isLoggedIn && <Navigate to='/' replace={true} />}
+      <div
+        className='bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:w-1/2 xl:w-1/3 h-screen px-6 lg:px-16 xl:px-12
+flex items-center justify-center'>
+        <div className='w-full h-[calc(100vh-124px)] max-w-sm'>
+          <h1 className='text-xl md:text-3xl font-bold leading-tight mt-12 text-center'>
+            Log in to your account
+          </h1>
+          <form className='mt-6' action='#' method='POST'>
             <div>
-              <Input variant="standard" label="Email" type="email" className="border-r-0 border-t-0 border-l-0 outline-none focus:ring-0" autoFocus autoComplete='true' required />
+              <Input
+                variant='standard'
+                label='Email'
+                type='email'
+                className='border-r-0 border-t-0 border-l-0 outline-none focus:ring-0'
+                autoFocus
+                autoComplete='true'
+                required
+                name='email'
+                value={formData.email}
+                onChange={(e) => inputHandler(e)}
+              />
             </div>
-            <div className="mt-4 relative h-full w-full">
-              <Input variant="standard" label="Password" type={viewPassword ? 'text' : 'password'} minLength={6} className="border-r-0 border-t-0 border-l-0 outline-none focus:ring-0 pr-10" required />
-              {viewPassword ? <BiHide onClick={() => setViewPassword(!viewPassword)} className='absolute right-0 top-0 mt-4 mr-4 cursor-pointer' /> : <BiShow onClick={() => setViewPassword(!viewPassword)} className='absolute right-0 top-0 mt-4 mr-4 cursor-pointer' />}
+            <div className='mt-4 relative h-full w-full'>
+              <Input
+                variant='standard'
+                label='Password'
+                type={viewPassword ? 'text' : 'password'}
+                minLength={6}
+                className='border-r-0 border-t-0 border-l-0 outline-none focus:ring-0 pr-10'
+                required
+                name='password'
+                value={formData.password}
+                onChange={(e) => inputHandler(e)}
+              />
+              {viewPassword ? (
+                <BiHide
+                  onClick={() => setViewPassword(!viewPassword)}
+                  className='absolute right-0 top-0 mt-4 mr-4 cursor-pointer'
+                />
+              ) : (
+                <BiShow
+                  onClick={() => setViewPassword(!viewPassword)}
+                  className='absolute right-0 top-0 mt-4 mr-4 cursor-pointer'
+                />
+              )}
             </div>
-            <div className="mt-4">
-              <Link to="#" className="text-sm font-semibold text-black hover:text-black focus:text-black transition-colors flex items-center gap-1"><GrCircleAlert></GrCircleAlert>Forgot Password?</Link>
+            <div className='mt-4'>
+              <Link
+                to='#'
+                className='text-sm font-semibold text-black hover:text-black focus:text-black transition-colors flex items-center gap-1'>
+                <GrCircleAlert></GrCircleAlert>Forgot Password?
+              </Link>
             </div>
-            <button type="submit" onClick={(e) => submitHandler(e)} className="w-full block bg-black hover:bg-zinc-800 focus:bg-zinc-800 text-white font-semibold
-    px-4 py-3 mt-6 transition-colors">Log In</button>
+            <button
+              type='submit'
+              onClick={(e) => submitHandler(e)}
+              className='w-full block bg-black hover:bg-zinc-800 focus:bg-zinc-800 text-white font-semibold
+    px-4 py-3 mt-6 transition-colors'>
+              Log In
+            </button>
           </form>
-          <hr className="my-6 border-gray-300 w-full" />
-          <button type="button" className="w-full block bg-white hover:bg-gray-100 focus:bg-gray-100 text-gray-900 font-semibold px-4 py-3 border border-gray-300">
-            <div className="flex items-center justify-center">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="w-6 h-6" viewBox="0 0 48 48"><defs><path id="a" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z" /></defs><clipPath id="b"><use xlinkHref="#a" overflow="visible" /></clipPath><path clipPath="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z" /><path clipPath="url(#b)" fill="#EA4335" d="M0 11l17 13 7-6.1L48 14V0H0z" /><path clipPath="url(#b)" fill="#34A853" d="M0 37l30-23 7.9 1L48 0v48H0z" /><path clipPath="url(#b)" fill="#4285F4" d="M48 48L17 24l-4-3 35-10z" /></svg>
-              <span className="ml-4">
-                Log in
-                with
-                Google</span>
-            </div>
-          </button>
-          <p className="mt-4 text-sm font-semibold text-zinc-600 text-center">Need an account? <Link to="/register" className="text-blue-500 hover:text-blue-700 font-semibold">Create an
-            account</Link></p>
+          <hr className='my-6 border-gray-300 w-full' />
+          <p className='mt-4 text-sm font-semibold text-zinc-600 text-center'>
+            Need an account?{' '}
+            <Link
+              to='/register'
+              className='text-blue-500 hover:text-blue-700 font-semibold'>
+              Create an account
+            </Link>
+          </p>
         </div>
       </div>
     </section>
