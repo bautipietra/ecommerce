@@ -278,6 +278,11 @@ const Sneakers = () => {
       {/* Products */}
       <div className='h-full lg:col-span-8 xl:col-span-9 w-full lg:pl-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3 relative'>
         {!imagesLoad && <Loader></Loader>}
+        {productsFiltered?.length == 0 && (
+          <span className='text-lg text-center col-span-3 h-fit'>
+            No products found
+          </span>
+        )}
         {productsFiltered
           ?.slice(12 * page - 12, 12 * page)
           .map((p, i) => (
