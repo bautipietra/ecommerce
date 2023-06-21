@@ -59,16 +59,19 @@ const Register = () => {
       !validPassword && toast.error('Invalid password')
       !terms && toast.error('Accept terms and conditions')
     } else {
-      const res = await fetch('http://localhost:3000/user/register', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          email,
-          password
-        })
-      })
+      const res = await fetch(
+        'https://ecommerce-backend-production-2600.up.railway.app/user/register',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            email,
+            password
+          })
+        }
+      )
       const data = await res.json()
       if (res.ok) {
         handleLogin(data.token)

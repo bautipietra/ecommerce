@@ -28,16 +28,19 @@ const Login = () => {
   ) => {
     e.preventDefault()
     const { email, password } = formData
-    const res = await fetch('http://localhost:3000/user/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        email,
-        password
-      })
-    })
+    const res = await fetch(
+      'https://ecommerce-backend-production-2600.up.railway.app/user/login',
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          email,
+          password
+        })
+      }
+    )
     const data = await res.json()
     if (res.ok) {
       console.log('acepte login')

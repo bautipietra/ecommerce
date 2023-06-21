@@ -25,15 +25,18 @@ export const AuthContextProvider = ({ children }) => {
 
   const handleSession = async (token) => {
     try {
-      const res = await fetch('http://localhost:3000/user/renew', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          token
-        })
-      })
+      const res = await fetch(
+        'https://ecommerce-backend-production-2600.up.railway.app/user/renew',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            token
+          })
+        }
+      )
       const data = res.json()
       if (data?.token) {
         const json = JSON.stringify(data.token)
