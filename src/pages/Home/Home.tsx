@@ -14,12 +14,12 @@ export default function Home() {
       {reviewModal && (
         <Review setReviewModal={setReviewModal}></Review>
       )}
-      <div className='bg-white min-h-[calc(100vh-100px)]'>
-        <section className='bg-white bg-opacity-30 py-10 sm:py-16 lg:py-16'>
+      <div className='bg-white min-h-[calc(100vh-100px)] grid items-center'>
+        <section className='bg-white bg-opacity-30 py-10 sm:py-16 lg:py-16 grid items-center -mt-[100px]'>
           <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
-            <div className='grid items-center grid-cols-1 sm:gap-12'>
-              <div className='grid mb-8 sm:py-16'>
-                <h1 className='mt-4 text-4xl font-bold text-black text-center lg:mt-8 sm:text-6xl xl:text-8xl max-w-3xl m-auto'>
+            <div className='grid items-center'>
+              <div className='grid items-center'>
+                <h1 className='text-4xl font-bold text-black text-center  sm:text-6xl xl:text-8xl max-w-3xl m-auto'>
                   Great way to boost your{' '}
                   <span className='text-transparent bg-clip-text bg-gradient-to-r from-gray-600 to-gray-400'>
                     style!
